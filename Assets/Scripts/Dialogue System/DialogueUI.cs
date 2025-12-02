@@ -27,6 +27,9 @@ public class DialogueUI : MonoBehaviour
         speakerTextDisplay.text = speaker;
         dialogueTextDisplay.text = dialogue;
 
+        if (choices == null)
+            return;
+
         foreach (var b in buttons)
             b.gameObject.SetActive(false);
 
