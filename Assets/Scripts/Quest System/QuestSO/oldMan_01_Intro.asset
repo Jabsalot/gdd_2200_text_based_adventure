@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: oldMan_01_Intro
+  m_EditorClassIdentifier: 
+  nodeID: oldMan_01_Intro
+  speakerName: Old Man
+  dialogueText: Hello traveler. Can you help me find my lost ring?
+  choices:
+  - choiceText: '[Of course!]'
+    nextNodeID: oldMan_02_accepted
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags:
+    - accepted_oldManQuest
+  - choiceText: '[Sorry I can''t right now...]'
+    nextNodeID: oldMan_03_rejected
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags:
+    - denied_oldManQuest
