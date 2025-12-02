@@ -9,6 +9,7 @@ public class DialogueManager : MonoBehaviour
     public FlagManager flagManager;
     public string StartNodeID;
 
+    // Events for UI Updates
     public delegate void DialogueUpdated(string speakerName, string dialogueText, List<DialogueChoices> choices);
     public event DialogueUpdated OnDialogueUpdated;
 

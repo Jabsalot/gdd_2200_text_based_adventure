@@ -6,9 +6,9 @@ public class DialogueDatabase : ScriptableObject
 {
     public List<DialogueNode> Nodes = new();
 
-    private Dictionary<string, DialogueNode> lookup;
+    private Dictionary<string, DialogueNode> lookup; // KEY: Node ID - VALUE: Node Scriptable Object
 
-    private void BuildNodeDictionary()
+    private void BuildLookup()
     {
         if (lookup != null) return;
 
@@ -23,7 +23,7 @@ public class DialogueDatabase : ScriptableObject
     public DialogueNode GetNode(string id)
     {
         if (string.IsNullOrEmpty(id)) return null;
-        BuildNodeDictionary();
+        BuildLookup();
         lookup.TryGetValue(id, out DialogueNode node);
         return node;
     }
