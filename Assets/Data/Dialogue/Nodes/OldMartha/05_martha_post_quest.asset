@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: 05_martha_post_quest
+  m_EditorClassIdentifier: 
+  nodeID: 05_martha_post_quest
+  speakerName: Old Martha
+  dialogueText: Oh hello again, dear friend! Whiskers and I are doing wonderfully
+    thanks to you. She hasn't left my side since you brought her home. You're always
+    welcome here!
+  choices:
+  - choiceText: Glad to hear it! Take care, Martha.
+    nextNodeID: 
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []

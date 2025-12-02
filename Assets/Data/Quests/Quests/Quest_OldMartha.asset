@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bc9a5bac7e8aac40bb1f206bb0bd641, type: 3}
+  m_Name: Quest_OldMartha
+  m_EditorClassIdentifier: 
+  questID: find_marthas_cat
+  questName: Find Martha's Cat
+  questGiver: Old Martha
+  questDescription: Old Martha has lost her beloved cat, Whiskers. She was last seen
+    near the old well. Find Whiskers and return her safely.
+  activationRequiredFlags: []
+  activationForbiddenFlags: []
+  questStartedFlag: QUEST_ACTIVE_MARTHAS_CAT
+  stages:
+  - stageID: find_whiskers
+    objectiveText: Search for Whiskers near the old well
+    requiredFlags:
+    - FOUND_WHISKERS
+    grantFlagsOnComplete:
+    - HOLDING_WHISKERS
+    nextStageID: return_whiskers
+  - stageID: return_whiskers
+    objectiveText: Return Whiskers to Old Martha
+    requiredFlags:
+    - RETURNED_WHISKERS
+    grantFlagsOnComplete: []
+    nextStageID: 
+  questCompletedFlag: QUEST_COMPLETE_MARTHAS_CAT
+  completionRewardFlags:
+  - MARTHAS_FRIEND
+  - REWARD_COOKIES

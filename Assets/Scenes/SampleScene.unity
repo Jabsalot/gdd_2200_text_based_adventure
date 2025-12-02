@@ -129,6 +129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 264352228}
   - component: {fileID: 264352227}
+  - component: {fileID: 264352229}
   m_Layer: 0
   m_Name: DialogueManager
   m_TagString: Untagged
@@ -150,7 +151,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   database: {fileID: 11400000, guid: 44b88e34f8dec6d4f85b99bbe9924659, type: 2}
   flagManager: {fileID: 1719091680}
-  StartNodeID: oldMan_01_Intro
+  StartNodeID: martha_intro_01
 --- !u!4 &264352228
 Transform:
   m_ObjectHideFlags: 0
@@ -166,6 +167,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &264352229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 264352226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be732af9974094948b472633d86a253a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flagManager: {fileID: 1719091680}
+  questManager: {fileID: 1185183631}
+  questStartTriggers:
+  - triggerFlag: QUEST_START_MARTHAS_CAT
+    questID: find_marthas_cat
 --- !u!1 &320564223
 GameObject:
   m_ObjectHideFlags: 0
@@ -999,6 +1017,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1072538232}
   m_CullTransparentMesh: 1
+--- !u!1 &1185183630
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1185183632}
+  - component: {fileID: 1185183631}
+  m_Layer: 0
+  m_Name: QuestManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1185183631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1185183630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 001d5c28f98c7d14692e2e6a3d1fa403, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questDatabase: {fileID: 11400000, guid: 28e7775c08f34794ab0e221554f46361, type: 2}
+  flagManager: {fileID: 1719091680}
+  debugLog: 1
+--- !u!4 &1185183632
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1185183630}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 215.30707, y: 180.95766, z: -2.1620095}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1296850245
 GameObject:
   m_ObjectHideFlags: 0
@@ -1365,6 +1430,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23dd60efe61cb5845a3eed4f4d183d37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  debugLog: 0
 --- !u!4 &1719091681
 Transform:
   m_ObjectHideFlags: 0
@@ -1789,6 +1855,7 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 619394802}
   - {fileID: 1719091681}
-  - {fileID: 264352228}
   - {fileID: 458163676}
   - {fileID: 540865552}
+  - {fileID: 264352228}
+  - {fileID: 1185183632}

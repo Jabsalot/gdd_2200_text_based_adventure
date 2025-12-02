@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections.Generic;
 
 /// <summary>
-/// Bridges dialogue and quests. Add to the same GameObject as DialogueManager.
+/// Bridges dialogue and quests. Must be added to the same GameObject as DialogueManager.
 /// Listens for specific flags and triggers quest actions.
 /// </summary>
 public class DialogueQuestTrigger : MonoBehaviour
