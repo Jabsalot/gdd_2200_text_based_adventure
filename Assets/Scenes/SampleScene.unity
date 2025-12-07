@@ -420,7 +420,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   database: {fileID: 11400000, guid: 44b88e34f8dec6d4f85b99bbe9924659, type: 2}
   flagManager: {fileID: 1719091680}
-  StartNodeID: martha_intro_01
+  StartNodeID: ENV_01_VILLAGE_SQUARE
 --- !u!4 &264352228
 Transform:
   m_ObjectHideFlags: 0
@@ -451,8 +451,12 @@ MonoBehaviour:
   flagManager: {fileID: 1719091680}
   questManager: {fileID: 1185183631}
   questStartTriggers:
-  - triggerFlag: QUEST_START_MARTHAS_CAT
-    questID: find_marthas_cat
+  - triggerFlag: QUEST_SALVATION_STARTED
+    questID: QUEST_SALVATION
+  - triggerFlag: QUEST_ASCENSION_STARTED
+    questID: QUEST_ASCENSION
+  - triggerFlag: QUEST_REBELLION_STARTED
+    questID: QUEST_REBELLION
 --- !u!1 &294765708
 GameObject:
   m_ObjectHideFlags: 0
@@ -7421,7 +7425,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.000014305115}
+  m_AnchoredPosition: {x: 0, y: 0.000015258789}
   m_SizeDelta: {x: 0, y: 0.000020981}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1853753024
