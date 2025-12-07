@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: NPC_06_RODERICK_HOSTILE
+  m_EditorClassIdentifier: 
+  nodeID: NPC_06_RODERICK_HOSTILE
+  speakerName: Ser Roderick
+  dialogueText: His hand closes on his sword hilt, knuckles white. "So. You're one
+    of them. Vex's people." The hope in his eyes dies, replaced by cold fury. "The
+    king can still be saved. But you've already made your choice, haven't you? Get
+    out of my sight, rebel. Next time I see you, we won't be talking."
+  choices:
+  - choiceText: '[Leave]'
+    nextNodeID: ENV_04_TAVERN
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: NPC_12_VEX_JOIN
+  m_EditorClassIdentifier: 
+  nodeID: NPC_12_VEX_JOIN
+  speakerName: Vex
+  dialogueText: "For the first time, something like approval flickers across her
+    face. \"Good. I was starting to think everyone in this damned village had lost
+    their spine.\" She leans closer. \"The king can't be killed by normal means\u2014the
+    crown protects him. But there's a weapon that can do it. A dagger, black as sin,
+    hidden in the crypt beneath the chapel. The cultists use it in their rituals.\"
+    She pulls out a key. \"This unlocks the crypt. Get the dagger. I'll show you
+    the path to the castle. And then... we end this.\""
+  choices:
+  - choiceText: '"Consider it done."'
+    nextNodeID: ENV_08_FOREST_EDGE
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags:
+    - REBEL_ALLIED
+    - KNOWS_CASTLE_PATH
+    - CRYPT_UNLOCKED
+    - QUEST_REBELLION_STARTED

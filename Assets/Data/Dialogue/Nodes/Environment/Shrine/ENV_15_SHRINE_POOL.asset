@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: ENV_15_SHRINE_POOL
+  m_EditorClassIdentifier: 
+  nodeID: ENV_15_SHRINE_POOL
+  speakerName: 
+  dialogueText: "You kneel at the pool's edge. The water\u2014if it is water\u2014reflects
+    nothing. Not the sky, not the stones, not your own face. It is absolute blackness
+    given liquid form. You feel it calling to you, promising power, promising understanding.
+    Brother Aldous's words echo in your mind: \"Drink, and become more than mortal.\""
+  choices:
+  - choiceText: '[Drink from the pool]'
+    nextNodeID: ENV_16_SHRINE_DRINK
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags:
+    - HAS_VOID_ESSENCE
+  - choiceText: '[Step back]'
+    nextNodeID: ENV_14_SHRINE
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []

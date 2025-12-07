@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: NPC_05_RODERICK_IDENTITY
+  m_EditorClassIdentifier: 
+  nodeID: NPC_05_RODERICK_IDENTITY
+  speakerName: Ser Roderick
+  dialogueText: He pulls back his hood, revealing a face marked by old scars and
+    fresh worry. "I am Ser Roderick of the King's Guard. Twenty years I served Aldric.
+    Twenty years." His jaw tightens. "I was there when the curse took hold. Watched
+    him change, day by day, as that damned crown ate away at everything he was. I
+    fled when I should have fought. Now I'm trying to make it right."
+  choices:
+  - choiceText: '"I want to help save the king."'
+    nextNodeID: NPC_06_RODERICK_JOIN
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags:
+    - REBEL_ALLIED
+    - CULT_ALLIED
+    grantFlags: []
+  - choiceText: '"Why did you flee?"'
+    nextNodeID: NPC_05_RODERICK_FLED
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+  - choiceText: '"The king must fall."'
+    nextNodeID: NPC_06_RODERICK_HOSTILE
+    reloadScene: 0
+    requiredFlags:
+    - REBEL_ALLIED
+    forbiddenFlags: []
+    grantFlags: []
+  - choiceText: '"I see. Goodbye."'
+    nextNodeID: ENV_04_TAVERN
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []

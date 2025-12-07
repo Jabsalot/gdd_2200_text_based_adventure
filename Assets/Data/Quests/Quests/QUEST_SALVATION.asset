@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bc9a5bac7e8aac40bb1f206bb0bd641, type: 3}
+  m_Name: QUEST_SALVATION
+  m_EditorClassIdentifier: 
+  questID: QUEST_SALVATION
+  questName: The King's Salvation
+  questGiver: Ser Roderick
+  questDescription: King Aldric is cursed but may yet be saved. Find the Silver Saint
+    Medallion and use it to purify the Hollow Crown.
+  activationRequiredFlags: []
+  activationForbiddenFlags: []
+  questStartedFlag: 
+  stages:
+  - stageID: salvation_stage_1
+    objectiveText: Find the Silver Saint Medallion in the chapel.
+    requiredFlags:
+    - HAS_SILVER_MEDALLION
+    grantFlagsOnComplete: []
+    nextStageID: salvation_stage_2
+  - stageID: salvation_stage_2
+    objectiveText: Travel to Castle Valdros and use the medallion to purify the Hollow
+      Crown.
+    requiredFlags:
+    - CROWN_PURIFIED
+    grantFlagsOnComplete: []
+    nextStageID: 
+  questCompletedFlag: 
+  completionRewardFlags: []

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: ENV_19_THRONE_ROOM
+  m_EditorClassIdentifier: 
+  nodeID: ENV_19_THRONE_ROOM
+  speakerName: Castle Valdros - Throne Room
+  dialogueText: The great hall of Castle Valdros is a ruin of its former glory. Tattered
+    banners hang from the vaulted ceiling. At the far end, upon the iron throne,
+    sits King Aldric, his crown askew on his fevered brow. Black veins spread visibly
+    across his skin. The Hollow Crown rests heavy on his head, the source of the
+    curse that consumes him. He raises his head slowly, eyes burning with unnatural
+    light.
+  choices:
+  - choiceText: '[Use the Silver Medallion]'
+    nextNodeID: ENV_21_THRONE_ROOM_SALVATION
+    reloadScene: 0
+    requiredFlags:
+    - LOYALIST_ALLIED
+    - HAS_SILVER_MEDALLION
+    forbiddenFlags: []
+    grantFlags: []
+  - choiceText: '[Strike with the Cursed Dagger]'
+    nextNodeID: ENV_22_THRONE_ROOM_KILL
+    reloadScene: 0
+    requiredFlags:
+    - HAS_CURSED_DAGGER
+    forbiddenFlags: []
+    grantFlags: []
+  - choiceText: '[Retreat]'
+    nextNodeID: ENV_20_THRONE_ROOM_RETREAT
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []

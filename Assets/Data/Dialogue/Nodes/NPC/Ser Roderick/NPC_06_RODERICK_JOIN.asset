@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: NPC_06_RODERICK_JOIN
+  m_EditorClassIdentifier: 
+  nodeID: NPC_06_RODERICK_JOIN
+  speakerName: Ser Roderick
+  dialogueText: "For the first time, something like hope flickers in his eyes. \"You
+    mean it? You'd risk your life for a king you've never met?\" He straightens,
+    and for a moment you can see the knight he once was. \"Then I'll tell you what
+    I know. The curse can be broken\u2014but not by steel alone. The chapel here
+    once held relics of the Pale Saint. Holy things, blessed against corruption.
+    Find what remains. And I can show you the path to the castle\u2014a way through
+    the Thornwood that the rebels don't watch.\""
+  choices:
+  - choiceText: '"I''ll find what I need."'
+    nextNodeID: ENV_04_TAVERN
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags:
+    - LOYALIST_ALLIED
+    - KNOWS_CASTLE_PATH
+    - QUEST_SALVATION_STARTED

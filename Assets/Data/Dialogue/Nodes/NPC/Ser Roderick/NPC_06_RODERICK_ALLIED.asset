@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: NPC_06_RODERICK_ALLIED
+  m_EditorClassIdentifier: 
+  nodeID: NPC_06_RODERICK_ALLIED
+  speakerName: Ser Roderick
+  dialogueText: "Roderick nods as you approach. \"Any progress? The path to the castle
+    remains open when you're ready. Remember\u2014the chapel holds the key. The relics
+    of the Pale Saint are our only hope against the crown's corruption.\""
+  choices:
+  - choiceText: '"How do I break the curse?"'
+    nextNodeID: NPC_06_RODERICK_ADVICE
+    reloadScene: 0
+    requiredFlags:
+    - LOYALIST_ALLIED
+    forbiddenFlags: []
+    grantFlags: []
+  - choiceText: '"I''ll keep searching. Goodbye."'
+    nextNodeID: ENV_04_TAVERN
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []

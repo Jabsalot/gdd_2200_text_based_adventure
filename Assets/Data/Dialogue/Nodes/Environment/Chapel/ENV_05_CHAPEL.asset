@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: ENV_05_CHAPEL
+  m_EditorClassIdentifier: 
+  nodeID: ENV_05_CHAPEL
+  speakerName: Chapel of the Pale Saint
+  dialogueText: The chapel's doors hang askew on rusted hinges. Inside, rows of rotting
+    pews face a defaced altar where a statue of the Pale Saint once stood. Now only
+    the saint's feet remain, the rest shattered across the floor. Candles burn in
+    strange patterns near the altar. A robed figure stands before the ruined statue,
+    his back to you.
+  choices:
+  - choiceText: '[Speak to the robed figure]'
+    nextNodeID: NPC_07_ALDOUS_GREETING
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags:
+    - CULT_ALLIED
+    grantFlags: []
+  - choiceText: '[Speak with Brother Aldous]'
+    nextNodeID: NPC_09_ALDOUS_ALLIED
+    reloadScene: 0
+    requiredFlags:
+    - CULT_ALLIED
+    forbiddenFlags: []
+    grantFlags: []
+  - choiceText: '[Search the altar rubble]'
+    nextNodeID: ENV_06_CHAPEL_ALTAR
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags:
+    - HAS_SILVER_MEDAL
+    grantFlags: []
+  - choiceText: '[Search the altar rubble]'
+    nextNodeID: ENV_07_CHAPEL_ALTAR_EMPTY
+    reloadScene: 0
+    requiredFlags:
+    - HAS_SILVER_MEDALLION
+    forbiddenFlags: []
+    grantFlags: []
+  - choiceText: 'Descend to the crypt]'
+    nextNodeID: ENV_09_CRYPT
+    reloadScene: 0
+    requiredFlags:
+    - CRYPT_UNLOCKED
+    forbiddenFlags: []
+    grantFlags: []

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: CS_02_ENDING_REBELLION
+  m_EditorClassIdentifier: 
+  nodeID: CS_02_ENDING_REBELLION
+  speakerName: Epilogue
+  dialogueText: "You bring the crown down against the iron throne, again and again,
+    until nothing remains but twisted fragments. With each blow, you feel the corruption
+    dissipating, screaming into the void from which it came. The monarchy dies with
+    King Aldric. In the months that follow, a council forms\u2014Vex among its leaders.
+    They call you Kingslayer. Some say it as a curse, others as a blessing. You accept
+    both. The old order is gone. What rises from its ashes... that remains to be
+    seen."
+  choices:
+  - choiceText: '[THE END - REBELLION]'
+    nextNodeID: 
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags:
+    - ENDING_REBELLION

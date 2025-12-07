@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: NPC_09_ALDOUS_ALLIED
+  m_EditorClassIdentifier: 
+  nodeID: NPC_09_ALDOUS_ALLIED
+  speakerName: Brother Aldous
+  dialogueText: Aldous studies you with those unsettling eyes. "Have you drunk from
+    the pool yet? The void must fill you before you can claim the crown. Without
+    its essence in your veins, the crown will consume you as it consumed the king.
+    With it... you will be its master."
+  choices:
+  - choiceText: '"Tell me more about the shrine."'
+    nextNodeID: NPC_09_ALDOUS_SHRINE
+    reloadScene: 0
+    requiredFlags:
+    - CULT_ALLIED
+    forbiddenFlags: []
+    grantFlags: []
+  - choiceText: '"I''ll continue my preparations. Goodbye."'
+    nextNodeID: ENV_05_CHAPEL
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
