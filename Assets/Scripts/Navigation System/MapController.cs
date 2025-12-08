@@ -9,6 +9,10 @@ public class MapController : MonoBehaviour
 
     public DialogueManager dialogueManager;
 
+    // Event for when a location is selected
+    public delegate void LocationSelected();
+    public static event LocationSelected OnLocationSelected;
+
     public void SelectLocation(int index)
     {
         // Validate index check
@@ -25,8 +29,8 @@ public class MapController : MonoBehaviour
         DialogueNode selectedNode = locationNodes[index];
         dialogueManager.GoToNode(selectedNode.nodeID);
 
-        // Close map
-        this.gameObject.SetActive(false);
+        // Notify listeners that a location was selected
+        OnLocationSelected?.Invoke();
     }
 
 }

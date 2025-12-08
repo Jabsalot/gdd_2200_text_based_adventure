@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ENV_07_CHAPEL_ALTAR_EMPTY
   m_EditorClassIdentifier: 
   nodeID: ENV_07_CHAPEL_ALTAR_EMPTY
+  nodeImage: {fileID: -4556744950061987876, guid: 98851fbc3b1920a408633b2cf09387f4, type: 3}
   speakerName: 
   dialogueText: You search through the rubble again, but find nothing else of value.
     Just broken stone and faded memories of faith.

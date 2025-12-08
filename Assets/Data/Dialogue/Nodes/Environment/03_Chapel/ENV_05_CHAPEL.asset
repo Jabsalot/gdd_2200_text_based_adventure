@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ENV_05_CHAPEL
   m_EditorClassIdentifier: 
   nodeID: ENV_05_CHAPEL
+  nodeImage: {fileID: -4556744950061987876, guid: 98851fbc3b1920a408633b2cf09387f4, type: 3}
   speakerName: Chapel of the Pale Saint
   dialogueText: The chapel's doors hang askew on rusted hinges. Inside, rows of rotting
     pews face a defaced altar where a statue of the Pale Saint once stood. Now only

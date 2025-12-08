@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ENV_06_CHAPEL_ALTAR
   m_EditorClassIdentifier: 
   nodeID: ENV_06_CHAPEL_ALTAR
+  nodeImage: {fileID: -4556744950061987876, guid: 98851fbc3b1920a408633b2cf09387f4, type: 3}
   speakerName: 
   dialogueText: "You kneel among the shattered remains of the Pale Saint. Fragments
     of pale stone crunch beneath your knees. As you sift through the rubble, your

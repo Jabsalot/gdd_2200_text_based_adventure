@@ -2,8 +2,21 @@ using UnityEngine;
 
 public class UIManager : MonoBehaviour
 {
-    public GameObject MainUIPanel;
+    [Header("Main Game UI")]
+    public GameObject DialogueUI;
+    public GameObject UtilUI;
+    [Header("Map UI")]
     public GameObject MapUIPanel;
+
+    private void OnEnable()
+    {
+        MapController.OnLocationSelected += ShowMainUI;
+    }
+
+    private void OnDisable()
+    {
+        MapController.OnLocationSelected -= ShowMainUI;
+    }
 
     private void Start()
     {
@@ -27,7 +40,9 @@ public class UIManager : MonoBehaviour
 
     private void ShowMainUI()
     {
-        MainUIPanel.SetActive(true);
+        DialogueUI.SetActive(true);
+        UtilUI.SetActive(true);
+
         MapUIPanel.SetActive(false);
     }
 
@@ -35,7 +50,9 @@ public class UIManager : MonoBehaviour
     // TODO: Should only be toggelable if player is in an environment dialogue
     private void ShowMapUI()
     {
-        MainUIPanel.SetActive(false);
+        DialogueUI.SetActive(false);
+        UtilUI.SetActive(false);
+
         MapUIPanel.SetActive(true);
     }
 }
