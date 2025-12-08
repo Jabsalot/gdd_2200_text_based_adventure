@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: NPC_11_VEX_IDENTITY
   m_EditorClassIdentifier: 
   nodeID: NPC_11_VEX_IDENTITY
+  nodeImage: {fileID: -7560631542690048406, guid: bf0abedc8833f494e94c87b99e94c853, type: 3}
   speakerName: Vex
   dialogueText: "\"I'm the woman who's going to burn this kingdom to the ground and
     build something better from the ashes.\" She says it without pride or boast\u2014just

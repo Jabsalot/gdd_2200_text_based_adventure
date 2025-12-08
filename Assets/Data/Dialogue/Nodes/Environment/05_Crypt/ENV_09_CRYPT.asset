@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ENV_09_CRYPT
   m_EditorClassIdentifier: 
   nodeID: ENV_09_CRYPT
+  nodeImage: {fileID: 952087034812133390, guid: d08272d9eeda96a44984f50561fff5f6, type: 3}
   speakerName: Chapel Crypt
   dialogueText: Stone steps descend into absolute darkness. Your torch reveals walls
     lined with alcoves containing the bones of forgotten faithful. At the crypt's

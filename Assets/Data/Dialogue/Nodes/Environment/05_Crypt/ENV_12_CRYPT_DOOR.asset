@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ENV_12_CRYPT_DOOR
   m_EditorClassIdentifier: 
   nodeID: ENV_12_CRYPT_DOOR
+  nodeImage: {fileID: 952087034812133390, guid: d08272d9eeda96a44984f50561fff5f6, type: 3}
   speakerName: 
   dialogueText: "The iron door is ancient but solid. Strange symbols are etched into
     its surface\u2014wards, perhaps, though whether to keep something in or out,

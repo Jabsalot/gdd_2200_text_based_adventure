@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: NPC_04_RODERICK_GREETING
   m_EditorClassIdentifier: 
   nodeID: NPC_04_RODERICK_GREETING
+  nodeImage: {fileID: -3800728153567874938, guid: ea61c0d33c35c3d4abfda08a14dcb430, type: 3}
   speakerName: Ser Roderick
   dialogueText: "The hooded figure doesn't look up as you approach, but his hand
     moves subtly toward the sword at his hip. When he finally raises his head, you

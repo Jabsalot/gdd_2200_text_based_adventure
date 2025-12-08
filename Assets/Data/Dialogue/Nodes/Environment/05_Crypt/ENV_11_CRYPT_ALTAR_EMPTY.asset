@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ENV_11_CRYPT_ALTAR_EMPTY
   m_EditorClassIdentifier: 
   nodeID: ENV_11_CRYPT_ALTAR_EMPTY
+  nodeImage: {fileID: 952087034812133390, guid: d08272d9eeda96a44984f50561fff5f6, type: 3}
   speakerName: 
   dialogueText: The altar stands empty now, the groove where the dagger rested dark
     with old blood. The spiraling symbols still writhe at the edge of your vision.

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ENV_04_Tavern
   m_EditorClassIdentifier: 
   nodeID: ENV_04_Tavern
+  nodeImage: {fileID: 7085344439343676370, guid: 618467097854cd94e95f25252b753b12, type: 3}
   speakerName: The Rusty Tankard
   dialogueText: Smoke and the smell of stale ale hang thick in the air. The tavern
     is nearly empty save for a few desperate souls nursing their cups. A fire crackles

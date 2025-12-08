@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: NPC_02_MIRA_CURSE
   m_EditorClassIdentifier: 
   nodeID: NPC_02_MIRA_CURSE
+  nodeImage: {fileID: -6241619883948048117, guid: a3512e42cf47db547b9e3c51a285737d, type: 3}
   speakerName: Mira the Innkeeper
   dialogueText: "\"That's what the old stories say. The Hollow Crown wasn't forged\u2014it
     was found. In a place deep in the Thornwood, where the standing stones are. The

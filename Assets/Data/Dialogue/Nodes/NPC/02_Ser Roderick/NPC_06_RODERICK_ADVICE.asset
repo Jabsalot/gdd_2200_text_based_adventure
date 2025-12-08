@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: NPC_06_RODERICK_ADVICE
   m_EditorClassIdentifier: 
   nodeID: NPC_06_RODERICK_ADVICE
+  nodeImage: {fileID: -3800728153567874938, guid: ea61c0d33c35c3d4abfda08a14dcb430, type: 3}
   speakerName: Ser Roderick
   dialogueText: "\"The Silver Medallion of the Pale Saint\u2014it was the most sacred
     relic in the chapel before... before Aldous changed. If anything can purify the

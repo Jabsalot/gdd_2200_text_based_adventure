@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: NPC_03_MIRA_CULT
   m_EditorClassIdentifier: 
   nodeID: NPC_03_MIRA_CULT
+  nodeImage: {fileID: -6241619883948048117, guid: a3512e42cf47db547b9e3c51a285737d, type: 3}
   speakerName: Mira the Innkeeper
   dialogueText: She glances around nervously before answering. "The chapel. Used
     to be holy ground, dedicated to the Pale Saint. Now..." She makes a warding gesture.

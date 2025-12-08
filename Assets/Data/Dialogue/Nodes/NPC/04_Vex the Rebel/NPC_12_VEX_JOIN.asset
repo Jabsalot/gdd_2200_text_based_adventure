@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: NPC_12_VEX_JOIN
   m_EditorClassIdentifier: 
   nodeID: NPC_12_VEX_JOIN
+  nodeImage: {fileID: -7560631542690048406, guid: bf0abedc8833f494e94c87b99e94c853, type: 3}
   speakerName: Vex
   dialogueText: "For the first time, something like approval flickers across her
     face. \"Good. I was starting to think everyone in this damned village had lost

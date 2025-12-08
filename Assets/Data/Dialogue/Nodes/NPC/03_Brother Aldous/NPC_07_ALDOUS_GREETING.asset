@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: NPC_07_ALDOUS_GREETING
   m_EditorClassIdentifier: 
   nodeID: NPC_07_ALDOUS_GREETING
+  nodeImage: {fileID: 9053202341865050492, guid: 53bc74f4a3d314c4dab95394223ccf3f, type: 3}
   speakerName: Brother Aldous
   dialogueText: "The robed figure turns slowly. His face might have been kind once,
     but now it's gaunt and pale, with eyes that seem to look through you rather than

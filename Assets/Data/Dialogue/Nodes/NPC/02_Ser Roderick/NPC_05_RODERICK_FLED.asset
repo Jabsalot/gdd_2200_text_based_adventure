@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: NPC_05_RODERICK_FLED
   m_EditorClassIdentifier: 
   nodeID: NPC_05_RODERICK_FLED
+  nodeImage: {fileID: -3800728153567874938, guid: ea61c0d33c35c3d4abfda08a14dcb430, type: 3}
   speakerName: Ser Roderick
   dialogueText: "Shame flickers across his face. \"Because I was afraid. The man
     I knew was gone\u2014replaced by something wearing his face. He spoke in voices

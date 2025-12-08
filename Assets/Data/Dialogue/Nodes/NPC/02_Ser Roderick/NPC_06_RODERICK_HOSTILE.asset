@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: NPC_06_RODERICK_HOSTILE
   m_EditorClassIdentifier: 
   nodeID: NPC_06_RODERICK_HOSTILE
+  nodeImage: {fileID: -3800728153567874938, guid: ea61c0d33c35c3d4abfda08a14dcb430, type: 3}
   speakerName: Ser Roderick
   dialogueText: His hand closes on his sword hilt, knuckles white. "So. You're one
     of them. Vex's people." The hope in his eyes dies, replaced by cold fury. "The

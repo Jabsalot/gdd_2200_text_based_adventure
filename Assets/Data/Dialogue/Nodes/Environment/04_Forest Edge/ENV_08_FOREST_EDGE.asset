@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ENV_08_FOREST_EDGE
   m_EditorClassIdentifier: 
   nodeID: ENV_08_FOREST_EDGE
+  nodeImage: {fileID: -4257943123874703653, guid: 9747d1c478ba80045a78ec3d5b2b7669, type: 3}
   speakerName: Forest Edge
   dialogueText: "Where the village ends, the Thornwood begins. Ancient oaks twist
     toward a perpetually overcast sky, their branches interlocking like grasping

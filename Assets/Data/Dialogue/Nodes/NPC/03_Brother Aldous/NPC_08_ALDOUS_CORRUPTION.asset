@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: NPC_08_ALDOUS_CORRUPTION
   m_EditorClassIdentifier: 
   nodeID: NPC_08_ALDOUS_CORRUPTION
+  nodeImage: {fileID: 9053202341865050492, guid: 53bc74f4a3d314c4dab95394223ccf3f, type: 3}
   speakerName: Brother Aldous
   dialogueText: '"Corruption?" He laughs softly. "Is it corruption when a caterpillar
     becomes a butterfly? When a seed splits to become a tree? The king suffers because

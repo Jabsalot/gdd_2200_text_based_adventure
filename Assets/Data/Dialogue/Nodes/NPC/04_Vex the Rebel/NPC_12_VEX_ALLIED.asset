@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: NPC_12_VEX_ALLIED
   m_EditorClassIdentifier: 
   nodeID: NPC_12_VEX_ALLIED
+  nodeImage: {fileID: -7560631542690048406, guid: bf0abedc8833f494e94c87b99e94c853, type: 3}
   speakerName: 
   dialogueText: "Vex nods as you approach. \"Any luck finding the dagger? The crypt
     should be accessible now. Remember\u2014it's the only weapon that can kill a

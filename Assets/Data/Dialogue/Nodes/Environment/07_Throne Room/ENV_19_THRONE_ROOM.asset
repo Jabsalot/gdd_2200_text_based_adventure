@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ENV_19_THRONE_ROOM
   m_EditorClassIdentifier: 
   nodeID: ENV_19_THRONE_ROOM
+  nodeImage: {fileID: -8268549617287495388, guid: 4441dba850db2c947bd3a8a2ef18020d, type: 3}
   speakerName: Castle Valdros - Throne Room
   dialogueText: The great hall of Castle Valdros is a ruin of its former glory. Tattered
     banners hang from the vaulted ceiling. At the far end, upon the iron throne,

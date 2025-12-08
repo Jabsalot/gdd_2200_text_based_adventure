@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: NPC_12_VEX_ADVICE
   m_EditorClassIdentifier: 
   nodeID: NPC_12_VEX_ADVICE
+  nodeImage: {fileID: -7560631542690048406, guid: bf0abedc8833f494e94c87b99e94c853, type: 3}
   speakerName: Vex
   dialogueText: "\"The Cursed Dagger is the key. It was forged from the same darkness
     that powers the crown\u2014the only thing that can pierce the king's protection.

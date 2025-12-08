@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.UI;
 using System.Collections.Generic;
 
 [CreateAssetMenu(menuName="Dialogue/DialogueNode")]
@@ -7,6 +8,9 @@ public class DialogueNode : ScriptableObject
 {
     [Header("Identity")]
     public string nodeID;
+
+    [Header("Visuals")]
+    public Sprite nodeImage;
 
     [Header("Dialogue")]
     public string speakerName;

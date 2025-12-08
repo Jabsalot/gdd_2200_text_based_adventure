@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: NPC_10_VEX_GREETING
   m_EditorClassIdentifier: 
   nodeID: NPC_10_VEX_GREETING
+  nodeImage: {fileID: -7560631542690048406, guid: bf0abedc8833f494e94c87b99e94c853, type: 3}
   speakerName: Vex
   dialogueText: "The scarred woman doesn't flinch as you approach, but the hand resting
     on her knife hilt tells you she's ready for anything. Her eyes\u2014one brown,

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ENV_10_CRYPT_ALTAR
   m_EditorClassIdentifier: 
   nodeID: ENV_10_CRYPT_ALTAR
+  nodeImage: {fileID: 952087034812133390, guid: d08272d9eeda96a44984f50561fff5f6, type: 3}
   speakerName: 
   dialogueText: "The altar is carved with spiraling symbols that hurt to look at
     directly. Old bloodstains darken the stone. Resting in a groove at the altar's

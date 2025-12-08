@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: NPC_05_RODERICK_IDENTITY
   m_EditorClassIdentifier: 
   nodeID: NPC_05_RODERICK_IDENTITY
+  nodeImage: {fileID: -3800728153567874938, guid: ea61c0d33c35c3d4abfda08a14dcb430, type: 3}
   speakerName: Ser Roderick
   dialogueText: He pulls back his hood, revealing a face marked by old scars and
     fresh worry. "I am Ser Roderick of the King's Guard. Twenty years I served Aldric.

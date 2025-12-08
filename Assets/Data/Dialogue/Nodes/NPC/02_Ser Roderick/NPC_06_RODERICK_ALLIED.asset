@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: NPC_06_RODERICK_ALLIED
   m_EditorClassIdentifier: 
   nodeID: NPC_06_RODERICK_ALLIED
+  nodeImage: {fileID: -3800728153567874938, guid: ea61c0d33c35c3d4abfda08a14dcb430, type: 3}
   speakerName: Ser Roderick
   dialogueText: "Roderick nods as you approach. \"Any progress? The path to the castle
     remains open when you're ready. Remember\u2014the chapel holds the key. The relics

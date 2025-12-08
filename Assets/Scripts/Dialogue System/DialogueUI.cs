@@ -9,6 +9,7 @@ public class DialogueUI : MonoBehaviour
     public DialogueManager dialogueManager;
     public TextMeshProUGUI speakerTextDisplay;
     public TextMeshProUGUI dialogueTextDisplay;
+    public Image dialogueImage;
     public List<Button> buttons;
     public List<TextMeshProUGUI> ButtonLabels;
 
@@ -32,6 +33,9 @@ public class DialogueUI : MonoBehaviour
 
         foreach (var b in buttons)
             b.gameObject.SetActive(false);
+
+        if (dialogueManager.GetCurrentDialogueNode.nodeImage != null)
+            dialogueImage.sprite = dialogueManager.GetCurrentDialogueNode.nodeImage;
 
         for (int i = 0; i < choices.Count; i++)
         {

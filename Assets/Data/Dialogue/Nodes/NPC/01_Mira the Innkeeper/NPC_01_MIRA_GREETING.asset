@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: NPC_01_MIRA_GREETING
   m_EditorClassIdentifier: 
   nodeID: NPC_01_MIRA_GREETING
+  nodeImage: {fileID: -6241619883948048117, guid: a3512e42cf47db547b9e3c51a285737d, type: 3}
   speakerName: Mira the Innkeeper
   dialogueText: "The innkeeper looks up as you approach, her eyes carrying the weight
     of too many sleepless nights. She sets down the glass she was cleaning\u2014though

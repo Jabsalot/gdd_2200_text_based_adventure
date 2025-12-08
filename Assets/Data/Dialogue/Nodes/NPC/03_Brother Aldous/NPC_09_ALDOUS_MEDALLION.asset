@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: NPC_09_ALDOUS_MEDALLION
   m_EditorClassIdentifier: 
   nodeID: NPC_09_ALDOUS_MEDALLION
+  nodeImage: {fileID: 9053202341865050492, guid: 53bc74f4a3d314c4dab95394223ccf3f, type: 3}
   speakerName: Brother Aldous
   dialogueText: "The moment he sees the medallion, Aldous recoils as if struck. His
     composure cracks, revealing something fearful beneath. \"Where did you\u2014that

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: ENV_15_SHRINE_POOL
   m_EditorClassIdentifier: 
   nodeID: ENV_15_SHRINE_POOL
+  nodeImage: {fileID: -7886095280468031780, guid: 669568cc0e9833b4a913c824df6ac179, type: 3}
   speakerName: 
   dialogueText: "You kneel at the pool's edge. The water\u2014if it is water\u2014reflects
     nothing. Not the sky, not the stones, not your own face. It is absolute blackness

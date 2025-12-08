@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: NPC_09_ALDOUS_JOIN
   m_EditorClassIdentifier: 
   nodeID: NPC_09_ALDOUS_JOIN
+  nodeImage: {fileID: 9053202341865050492, guid: 53bc74f4a3d314c4dab95394223ccf3f, type: 3}
   speakerName: Brother Aldous
   dialogueText: "His smile widens, revealing teeth that seem too sharp. \"Yes. I
     knew you were different. The void does not call to everyone\u2014only those worthy

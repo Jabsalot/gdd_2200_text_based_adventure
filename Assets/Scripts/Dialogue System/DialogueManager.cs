@@ -14,12 +14,16 @@ public class DialogueManager : MonoBehaviour
     public event DialogueUpdated OnDialogueUpdated;
 
     private DialogueNode currentDialogueNode;
+    public DialogueNode GetCurrentDialogueNode => currentDialogueNode;
 
     private void Start()
     {
         GoToNode(StartNodeID);
     }
 
+    /// <summary>
+    /// Reloads the current scene.
+    /// </summary>
     private void ReloadScene()
     {
         var currentScene = SceneManager.GetActiveScene();
@@ -33,6 +37,7 @@ public class DialogueManager : MonoBehaviour
     /// <returns></returns>
     private bool IsChoiceAvailable(DialogueChoices choice)
     {
+        // Check required and forbidden flags
         foreach(var required in choice.requiredFlags)
         {
             if (!flagManager.HasFlag(required)) return false;
@@ -62,6 +67,11 @@ public class DialogueManager : MonoBehaviour
         return dialogueChoices;
     }
 
+    /// <summary>
+    /// Select a choice and progress the dialogue.
+    /// Buttons in the UI subscribe to this method.
+    /// </summary>
+    /// <param name="index"></param>
     public void SelectChoice(int index)
     {
         List<DialogueChoices> filtered = FilterChoices(currentDialogueNode.choices);
@@ -81,16 +91,22 @@ public class DialogueManager : MonoBehaviour
         GoToNode(choice.nextNodeID);
     }
 
+    /// <summary>
+    /// Go to a specific dialogue node by its ID.
+    /// </summary>
+    /// <param name="nodeID"></param>
     public void GoToNode(string nodeID)
     {
         currentDialogueNode = database.GetNode(nodeID);
 
+        // If node is null, dialogue has ended. Notify UI.
         if (currentDialogueNode == null)
         {
             OnDialogueUpdated?.Invoke("", "[Dialogue Ended]", null);
             return;
         }
 
+        // Notify UI of updated dialogue state.
         List<DialogueChoices> filtered = FilterChoices(currentDialogueNode.choices);
         {
             OnDialogueUpdated?.Invoke(currentDialogueNode.speakerName, currentDialogueNode.dialogueText, filtered);

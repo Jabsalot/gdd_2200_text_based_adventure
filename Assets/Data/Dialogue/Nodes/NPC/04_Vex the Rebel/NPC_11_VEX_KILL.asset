@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: NPC_11_VEX_KILL
   m_EditorClassIdentifier: 
   nodeID: NPC_11_VEX_KILL
+  nodeImage: {fileID: -7560631542690048406, guid: bf0abedc8833f494e94c87b99e94c853, type: 3}
   speakerName: Vex
   dialogueText: "\"Kill him? I want to unmake him. Him and everything he represents.\"
     She spits on the ground. \"The loyalists think they can save him. The cultists

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: NPC_09_ALDOUS_ALLIED
   m_EditorClassIdentifier: 
   nodeID: NPC_09_ALDOUS_ALLIED
+  nodeImage: {fileID: 9053202341865050492, guid: 53bc74f4a3d314c4dab95394223ccf3f, type: 3}
   speakerName: Brother Aldous
   dialogueText: Aldous studies you with those unsettling eyes. "Have you drunk from
     the pool yet? The void must fill you before you can claim the crown. Without

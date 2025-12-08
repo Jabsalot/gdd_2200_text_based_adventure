@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: NPC_09_ALDOUS_SHRINE
   m_EditorClassIdentifier: 
   nodeID: NPC_09_ALDOUS_SHRINE
+  nodeImage: {fileID: 9053202341865050492, guid: 53bc74f4a3d314c4dab95394223ccf3f, type: 3}
   speakerName: Brother Aldous
   dialogueText: "\"The shrine lies deep in the Thornwood, past the rebel camp. A
     circle of standing stones older than the kingdom itself. At its heart, a pool

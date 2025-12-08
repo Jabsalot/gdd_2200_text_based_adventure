@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: NPC_12_VEX_HOSTILE
   m_EditorClassIdentifier: 
   nodeID: NPC_12_VEX_HOSTILE
+  nodeImage: {fileID: -7560631542690048406, guid: bf0abedc8833f494e94c87b99e94c853, type: 3}
   speakerName: Vex
   dialogueText: "Her hand closes on her knife, and for a moment you think she's going
     to draw it. \"A loyalist. Here.\" She laughs\u2014a harsh, bitter sound. \"Roderick
