@@ -20,7 +20,7 @@ MonoBehaviour:
     covered in desperate pleas and faded warnings.
   choices:
   - choiceText: '[Examine Notice Board]'
-    nextNodeID: ENV_02_VILLAGE_SQUARE_NOTICE
+    nextNodeID: ENV_02_VILLAGE_SQUARE_FOUNTAIN
     reloadScene: 0
     requiredFlags: []
     forbiddenFlags: []

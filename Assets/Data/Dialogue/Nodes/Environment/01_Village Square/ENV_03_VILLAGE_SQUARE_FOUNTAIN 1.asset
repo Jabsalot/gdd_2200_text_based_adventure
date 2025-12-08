@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
   m_Name: ENV_03_VILLAGE_SQUARE_FOUNTAIN 1
   m_EditorClassIdentifier: 
-  nodeID: ENV_03_VILLAGE_SQUARE_FOUNTAIN 1
+  nodeID: ENV_03_VILLAGE_SQUARE_FOUNTAIN
   speakerName: Fountain
   dialogueText: "The fountain depicts a robed figure\u2014the Pale Saint, you assume\u2014holding
     a chalice aloft. The stonework is cracked and stained black in places. The basin

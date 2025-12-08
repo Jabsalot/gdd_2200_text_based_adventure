@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: INTRO_01_ARRIVAL
+  m_EditorClassIdentifier: 
+  nodeID: INTRO_01_ARRIVAL
+  speakerName: Intro
+  dialogueText: "The road to Ashwick ends in mud and silence. You've traveled for
+    days following rumors\u2014whispers of a cursed king, a dying kingdom, and opportunities
+    for those brave or foolish enough to seek them. Now, standing at the edge of
+    this grey village beneath an overcast sky, you wonder if the stories were true.
+    The air smells of rot and woodsmoke. Somewhere, a crow calls."
+  choices:
+  - choiceText: '[Enter the village]'
+    nextNodeID: INTRO_02_FIRST_LOOK
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
