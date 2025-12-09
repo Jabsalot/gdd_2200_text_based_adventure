@@ -1,6 +1,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Controls map navigation and location selection.
+/// </summary>
 public class MapController : MonoBehaviour
 {
     [Header("Location Data")]

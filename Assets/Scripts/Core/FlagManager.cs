@@ -1,6 +1,9 @@
 using UnityEngine;
 using System.Collections.Generic;
 
+/// <summary>
+/// Manages game flags for tracking player choices and states.
+/// </summary>
 public class FlagManager : MonoBehaviour
 {
     private HashSet<string> flags = new();
@@ -12,6 +15,8 @@ public class FlagManager : MonoBehaviour
 
     [Header("Debug")]
     public bool debugLog = false;
+
+    // ============ Public Functions ============
 
     public bool HasFlag(string flag)
     {

@@ -3,6 +3,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
 
+/// <summary>
+/// A single node in a dialogue tree.
+/// </summary>
 [CreateAssetMenu(menuName="Dialogue/DialogueNode")]
 public class DialogueNode : ScriptableObject
 {

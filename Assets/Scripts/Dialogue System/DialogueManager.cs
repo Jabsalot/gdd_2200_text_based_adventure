@@ -2,6 +2,9 @@ using UnityEngine;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 
+/// <summary>
+/// Manages the flow of dialogue within the game.
+/// </summary>
 public class DialogueManager : MonoBehaviour
 {
     [Header("Data")]
@@ -112,4 +115,28 @@ public class DialogueManager : MonoBehaviour
             OnDialogueUpdated?.Invoke(currentDialogueNode.speakerName, currentDialogueNode.dialogueText, filtered);
         }
     }
+
+    /// <summary>
+    /// Gets the current node ID for saving.
+    /// </summary>
+    public string GetCurrentNodeID()
+    {
+        return currentDialogueNode?.nodeID ?? StartNodeID;
+    }
+
+    /// <summary>
+    /// Loads the dialogue state from a node ID.
+    /// </summary>
+    public void LoadFromNodeID(string nodeID)
+    {
+        if (!string.IsNullOrEmpty(nodeID))
+        {
+            GoToNode(nodeID);
+        }
+        else
+        {
+            GoToNode(StartNodeID);
+        }
+    }
+
 }

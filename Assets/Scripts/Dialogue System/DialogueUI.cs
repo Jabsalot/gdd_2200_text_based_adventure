@@ -4,6 +4,9 @@ using UnityEngine.UI;
 using System.Collections.Generic;
 using System;
 
+/// <summary>
+/// Handles the Dialogue UI updates and interactions.
+/// </summary>
 public class DialogueUI : MonoBehaviour
 {
     public DialogueManager dialogueManager;

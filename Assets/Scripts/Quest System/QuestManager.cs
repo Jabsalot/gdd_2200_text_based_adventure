@@ -1,7 +1,9 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-
+/// <summary>
+/// Manages the quest system, including starting, tracking, and completing quests.
+/// </summary>
 public class QuestManager : MonoBehaviour
 {
     [Header("Data")]

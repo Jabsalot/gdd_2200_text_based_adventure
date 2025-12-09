@@ -2,6 +2,9 @@ using System;
 using System.IO;
 using UnityEngine;
 
+/// <summary>
+/// Manages saving and loading game data to/from disk.
+/// </summary>
 public static class SaveManager
 {
     private static readonly string FilePath =

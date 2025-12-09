@@ -1,7 +1,13 @@
 using UnityEngine;
 
+/// <summary>
+/// Controls the UI elements visibility and state.
+/// Any and all UI panel visibility should be managed through this script.
+/// </summary>
 public class UIManager : MonoBehaviour
 {
+    [Header("Save/Load UI")]
+    public GameObject SaveLoadUIPanel;
     [Header("Main Game UI")]
     public GameObject DialogueUI;
     public GameObject UtilUI;
@@ -11,16 +17,18 @@ public class UIManager : MonoBehaviour
     private void OnEnable()
     {
         MapController.OnLocationSelected += ShowMainUI;
+        SaveLoadController.OnGameStarted += ShowMainUI;
     }
 
     private void OnDisable()
     {
         MapController.OnLocationSelected -= ShowMainUI;
+        SaveLoadController.OnGameStarted -= ShowMainUI;
     }
 
     private void Start()
     {
-        ShowMainUI();
+        ShowSaveLoadUI();
     }
 
     public void Update()
@@ -38,18 +46,38 @@ public class UIManager : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Shows the Save/Load UI panel and hides others.
+    /// </summary>
+    private void ShowSaveLoadUI()
+    {
+        DialogueUI.SetActive(false);
+        UtilUI.SetActive(false);
+        MapUIPanel.SetActive(false);
+
+        SaveLoadUIPanel.SetActive(true);
+    }
+
+    /// <summary>
+    /// Shows the main game UI and hides others.
+    /// </summary>
     private void ShowMainUI()
     {
+        SaveLoadUIPanel.SetActive(false);
+        MapUIPanel.SetActive(false);
+        
         DialogueUI.SetActive(true);
         UtilUI.SetActive(true);
-
-        MapUIPanel.SetActive(false);
     }
 
     // TODO: Map should not be toggeled if in dialogue with an NPC
     // TODO: Should only be toggelable if player is in an environment dialogue
+    /// <summary>
+    /// Shows the Map UI and hides others.
+    /// </summary>
     private void ShowMapUI()
     {
+        SaveLoadUIPanel.SetActive(false);
         DialogueUI.SetActive(false);
         UtilUI.SetActive(false);
 
