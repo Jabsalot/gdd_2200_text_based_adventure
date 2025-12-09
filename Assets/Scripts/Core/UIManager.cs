@@ -13,17 +13,21 @@ public class UIManager : MonoBehaviour
     public GameObject UtilUI;
     [Header("Map UI")]
     public GameObject MapUIPanel;
+    [Header("Quest Log")]
+    public GameObject QuestLogPanel;
 
     private void OnEnable()
     {
         MapController.OnLocationSelected += ShowMainUI;
         SaveLoadController.OnGameStarted += ShowMainUI;
+        QuestLogUI.OnQuestLogTriggered += ShowQuestLogUI;
     }
 
     private void OnDisable()
     {
         MapController.OnLocationSelected -= ShowMainUI;
         SaveLoadController.OnGameStarted -= ShowMainUI;
+        QuestLogUI.OnQuestLogTriggered += ShowQuestLogUI;
     }
 
     private void Start()
@@ -44,6 +48,18 @@ public class UIManager : MonoBehaviour
                 ShowMapUI();
             }
         }
+
+        if(Input.GetKeyDown(KeyCode.J))
+        {
+            if(QuestLogPanel.activeSelf)
+            {
+                ShowMainUI();
+            }
+            else
+            {
+                ShowQuestLogUI();
+            }
+        }
     }
 
     /// <summary>
@@ -54,6 +70,7 @@ public class UIManager : MonoBehaviour
         DialogueUI.SetActive(false);
         UtilUI.SetActive(false);
         MapUIPanel.SetActive(false);
+        QuestLogPanel.SetActive(false);
 
         SaveLoadUIPanel.SetActive(true);
     }
@@ -65,7 +82,8 @@ public class UIManager : MonoBehaviour
     {
         SaveLoadUIPanel.SetActive(false);
         MapUIPanel.SetActive(false);
-        
+        QuestLogPanel.SetActive(false);
+
         DialogueUI.SetActive(true);
         UtilUI.SetActive(true);
     }
@@ -80,7 +98,21 @@ public class UIManager : MonoBehaviour
         SaveLoadUIPanel.SetActive(false);
         DialogueUI.SetActive(false);
         UtilUI.SetActive(false);
+        QuestLogPanel.SetActive(false);
 
         MapUIPanel.SetActive(true);
+    }
+
+    /// <summary>
+    /// Shows the QuestLogUI
+    /// </summary>
+    private void ShowQuestLogUI()
+    {
+        SaveLoadUIPanel.SetActive(false);
+        DialogueUI.SetActive(false);
+        UtilUI.SetActive(false);
+        MapUIPanel.SetActive(false);
+
+        QuestLogPanel.SetActive(true);
     }
 }

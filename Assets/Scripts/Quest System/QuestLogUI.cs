@@ -23,6 +23,10 @@ public class QuestLogUI : MonoBehaviour
     private List<GameObject> spawnedEntries = new();
     private string selectedQuestID;
 
+    // Events for when quest log is selected or clicked
+    public delegate void QuestLogActivated();
+    public static event QuestLogActivated OnQuestLogTriggered;
+
     private void OnEnable()
     {
         if (questManager != null)
@@ -43,21 +47,20 @@ public class QuestLogUI : MonoBehaviour
         }
     }
 
-    private void Update()
+    /// <summary>
+    /// Toggles the QuestLogUI.
+    /// Function should be used by a buttons OnClick() event.
+    /// </summary>
+    public void ToggleQuestLogUI()
     {
-        if (Input.GetKeyDown(toggleKey))
-        {
-            ToggleQuestLog();
-        }
-    }
+        Debug.Log("[QuestLogUI] Quest Log Opened");
 
-    public void ToggleQuestLog()
-    {
-        questLogPanel.SetActive(!questLogPanel.activeSelf);
-        if (questLogPanel.activeSelf)
-        {
-            RefreshQuestList();
-        }
+        // Refresh Quest Log UI in case any quests require update since last viewing
+        //RefreshQuestList();
+
+        // Notify listeners that quest journal was triggered
+        OnQuestLogTriggered?.Invoke();
+        
     }
 
     private void OnQuestChanged(string questID, QuestSO quest)
