@@ -17,9 +17,6 @@ public class QuestLogUI : MonoBehaviour
     public TextMeshProUGUI detailsDescription;
     public TextMeshProUGUI detailsObjective;
 
-    [Header("Toggle Key")]
-    public KeyCode toggleKey = KeyCode.J;
-
     private List<GameObject> spawnedEntries = new();
     private string selectedQuestID;
 

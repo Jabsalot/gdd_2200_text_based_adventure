@@ -13,4 +13,6 @@ MonoBehaviour:
   m_Name: Quest Database
   m_EditorClassIdentifier: 
   allQuests:
-  - {fileID: 11400000, guid: 5d4a93ba000f74344b789eda617a3010, type: 2}
+  - {fileID: 11400000, guid: 883e7a8e3b099ea43983dbe5c7b722b4, type: 2}
+  - {fileID: 11400000, guid: 9f26d295784fc994988d5258874fcdae, type: 2}
+  - {fileID: 11400000, guid: 6a8c4dff6a8b2b8429e078367de37203, type: 2}
