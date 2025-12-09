@@ -53,7 +53,7 @@ public class QuestLogUI : MonoBehaviour
         Debug.Log("[QuestLogUI] Quest Log Opened");
 
         // Refresh Quest Log UI in case any quests require update since last viewing
-        //RefreshQuestList();
+        RefreshQuestList();
 
         // Notify listeners that quest journal was triggered
         OnQuestLogTriggered?.Invoke();
@@ -87,6 +87,7 @@ public class QuestLogUI : MonoBehaviour
 
         // Add active quests
         List<QuestSO> activeQuests = questManager.GetActiveQuests();
+        Debug.Log($"[QuestLogUI] Number of active quests: {activeQuests.Count}");
         foreach (var quest in activeQuests)
         {
             CreateQuestEntry(quest, false);
