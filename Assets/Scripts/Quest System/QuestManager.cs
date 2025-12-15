@@ -26,6 +26,28 @@ public class QuestManager : MonoBehaviour
     public event QuestStageEvent OnStageCompleted;
     public event QuestStageEvent OnObjectiveUpdated;
 
+    private void OnEnable()
+    {
+        // Subscribe to flag changes to check quest progress
+        if(flagManager != null)
+        {
+            flagManager.OnFlagAdded += OnFlagChanged;
+        }
+
+        // Subscribe to dialogue quest triggers
+        DialogueManager.OnQuestTriggered += OnDialogueQuestTriggered;
+    }
+
+    private void OnDisable()
+    {
+        if (flagManager != null)
+        {
+            flagManager.OnFlagAdded -= OnFlagChanged;
+        }
+
+        DialogueManager.OnQuestTriggered -= OnDialogueQuestTriggered;
+    }
+
     private void Start()
     {
         // Subscribe to flag changes to check quest progress
@@ -49,6 +71,11 @@ public class QuestManager : MonoBehaviour
     private void OnFlagChanged(string flag)
     {
         CheckAllQuestProgress();
+    }
+
+    private void OnDialogueQuestTriggered(string questID)
+    {
+        TryStartQuest(questID);
     }
 
     /// <summary>

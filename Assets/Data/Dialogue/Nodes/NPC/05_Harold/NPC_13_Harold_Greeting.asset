@@ -26,9 +26,11 @@ MonoBehaviour:
     requiredFlags: []
     forbiddenFlags: []
     grantFlags: []
+    startQuestID: 
   - choiceText: '"I have more important things to do."'
     nextNodeID: NPC_13_HAROLD_DECLINE
     reloadScene: 0
     requiredFlags: []
     forbiddenFlags: []
     grantFlags: []
+    startQuestID: 

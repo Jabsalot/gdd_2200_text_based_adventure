@@ -26,3 +26,4 @@ MonoBehaviour:
     forbiddenFlags: []
     grantFlags:
     - QUEST_CHICKENS_STARTED
+    startQuestID: QUEST_CHICKENS

@@ -40,5 +40,9 @@ public class DialogueChoices
 
     [Header("Flags on select")]
     public List<string> grantFlags = new();
+
+    [Header("Quest Trigger")]
+    [Tooltip("If set, this quest will be started when this choice is selected")]
+    public string startQuestID;
 }
 

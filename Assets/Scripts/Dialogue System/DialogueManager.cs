@@ -16,6 +16,10 @@ public class DialogueManager : MonoBehaviour
     public delegate void DialogueUpdated(string speakerName, string dialogueText, List<DialogueChoices> choices);
     public event DialogueUpdated OnDialogueUpdated;
 
+    // Events for quest triggering
+    public delegate void QuestTriggerEvent(string questID);
+    public static event QuestTriggerEvent OnQuestTriggered;
+
     private DialogueNode currentDialogueNode;
     public DialogueNode GetCurrentDialogueNode => currentDialogueNode;
 
@@ -85,6 +89,13 @@ public class DialogueManager : MonoBehaviour
             flagManager.AddFlag(flag);
         }
 
+        // Triger quest if applicable
+        if(!string.IsNullOrEmpty(choice.startQuestID))
+        {
+            OnQuestTriggered?.Invoke(choice.startQuestID);
+        }
+
+        // Handle scene reload if applicable
         if (choice.reloadScene)
         {
             ReloadScene();
