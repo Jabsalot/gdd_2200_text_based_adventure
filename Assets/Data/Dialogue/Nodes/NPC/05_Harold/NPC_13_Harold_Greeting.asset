@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: NPC_13_Harold_Greeting
+  m_EditorClassIdentifier: 
+  nodeID: NPC_13_HAROLD_GREETING
+  nodeImage: {fileID: 0}
+  speakerName: Harold
+  dialogueText: "A wild-eyed old man grabs your arm with surprising strength. \"You!
+    You look capable! My chickens\u2014they've escaped! Three of them, scattered
+    somewhere in the village! I'm too old to chase them myself. Please, will you
+    help a poor farmer?\""
+  choices:
+  - choiceText: '"Sure, I''ll find your chickens."'
+    nextNodeID: NPC_13_HAROLD_ACCEPT
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+  - choiceText: '"I have more important things to do."'
+    nextNodeID: NPC_13_HAROLD_DECLINE
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []

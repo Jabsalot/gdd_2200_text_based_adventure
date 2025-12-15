@@ -4,7 +4,7 @@ using UnityEngine;
 /// Controls the Save and Load functionality from the UI.
 /// These functions should be hooked to buttons where saving, loading, or starting a new game is needed.
 /// </summary>
-public class SaveLoadController : MonoBehaviour
+public class SaveLoadUI : MonoBehaviour
 {
     // Events for when game starts
     public delegate void GameStarted();

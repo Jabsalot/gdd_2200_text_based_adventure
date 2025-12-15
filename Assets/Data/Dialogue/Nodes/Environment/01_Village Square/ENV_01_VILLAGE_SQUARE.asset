@@ -32,3 +32,17 @@ MonoBehaviour:
     requiredFlags: []
     forbiddenFlags: []
     grantFlags: []
+  - choiceText: '[Talk to the frantic old man]'
+    nextNodeID: NPC_13_HAROLD_GREETING
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags:
+    - QUEST_CHICKENS_COMPLETE
+    grantFlags: []
+  - choiceText: '[Talk to Harold]'
+    nextNodeID: NPC_14_HAROLD_DONE
+    reloadScene: 0
+    requiredFlags:
+    - QUEST_CHICKENS_COMPLETE
+    forbiddenFlags: []
+    grantFlags: []

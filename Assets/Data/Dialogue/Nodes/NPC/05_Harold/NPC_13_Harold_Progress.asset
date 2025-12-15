@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: NPC_13_Harold_Progress
+  m_EditorClassIdentifier: 
+  nodeID: NPC_13_HAROLD_PROGRESS
+  nodeImage: {fileID: 0}
+  speakerName: Harold
+  dialogueText: "Harold peers at you expectantly. \"Any luck finding my girls? And
+    Sir Pecksalot\u2014he's a rooster, very proud. They're out there somewhere!\""
+  choices:
+  - choiceText: '"Still looking."'
+    nextNodeID: ENV_01_VILLAGE_SQUARE
+    reloadScene: 0
+    requiredFlags:
+    - QUEST_CHICKENS_STARTED
+    forbiddenFlags:
+    - HAS_ALL_CHICKENS
+    grantFlags: []
+  - choiceText: '"I found all three!"'
+    nextNodeID: NPC_13_HAROLD_COMPLETE
+    reloadScene: 0
+    requiredFlags:
+    - HAS_ALL_CHICKENS
+    forbiddenFlags: []
+    grantFlags: []

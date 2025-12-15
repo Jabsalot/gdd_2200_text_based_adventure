@@ -18,48 +18,31 @@ public class UIManager : MonoBehaviour
 
     private void OnEnable()
     {
-        MapController.OnLocationSelected += ShowMainUI;
-        SaveLoadController.OnGameStarted += ShowMainUI;
+        UIUniversalController.onBackButtonPressed += ShowMainUI;
+
+        MapUI.OnMapOpened += ShowMapUI;
+        MapUI.OnLocationSelected += ShowMainUI;
+
+        SaveLoadUI.OnGameStarted += ShowMainUI;
+
         QuestLogUI.OnQuestLogTriggered += ShowQuestLogUI;
     }
 
     private void OnDisable()
     {
-        MapController.OnLocationSelected -= ShowMainUI;
-        SaveLoadController.OnGameStarted -= ShowMainUI;
+        UIUniversalController.onBackButtonPressed -= ShowMainUI;
+
+        MapUI.OnMapOpened -= ShowMapUI;
+        MapUI.OnLocationSelected -= ShowMainUI;
+
+        SaveLoadUI.OnGameStarted -= ShowMainUI;
+        
         QuestLogUI.OnQuestLogTriggered += ShowQuestLogUI;
     }
 
     private void Start()
     {
         ShowSaveLoadUI();
-    }
-
-    public void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.M))
-        {
-            if (MapUIPanel.activeSelf)
-            {
-                ShowMainUI();
-            }
-            else
-            {
-                ShowMapUI();
-            }
-        }
-
-        if(Input.GetKeyDown(KeyCode.J))
-        {
-            if(QuestLogPanel.activeSelf)
-            {
-                ShowMainUI();
-            }
-            else
-            {
-                ShowQuestLogUI();
-            }
-        }
     }
 
     /// <summary>

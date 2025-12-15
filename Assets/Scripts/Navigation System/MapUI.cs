@@ -1,10 +1,10 @@
-using System.Collections.Generic;
 using UnityEngine;
+using System.Collections.Generic;
 
 /// <summary>
 /// Controls map navigation and location selection.
 /// </summary>
-public class MapController : MonoBehaviour
+public class MapUI : MonoBehaviour
 {
     [Header("Location Data")]
     [Tooltip("A list of dialogue nodes for each location on the map. Each index corresponds to a location.")]
@@ -12,9 +12,18 @@ public class MapController : MonoBehaviour
 
     public DialogueManager dialogueManager;
 
-    // Event for when a location is selected
+    // Events for when a location is selected
+    public delegate void MapOpened();
+    public static event MapOpened OnMapOpened;
+
     public delegate void LocationSelected();
     public static event LocationSelected OnLocationSelected;
+
+    public void OpenMap()
+    {
+        Debug.Log("[MapTraversal] Map Opened");
+        OnMapOpened.Invoke();
+    }
 
     public void SelectLocation(int index)
     {
