@@ -6,15 +6,14 @@ using UnityEngine;
 /// </summary>
 public class UIManager : MonoBehaviour
 {
-    [Header("Save/Load UI")]
-    public GameObject SaveLoadUIPanel;
     [Header("Main Game UI")]
-    public GameObject DialogueUI;
-    public GameObject UtilUI;
+    public GameObject MainUIPanel;
     [Header("Map UI")]
     public GameObject MapUIPanel;
     [Header("Quest Log")]
     public GameObject QuestLogPanel;
+    [Header("Save/Load UI")]
+    public GameObject SaveLoadUIPanel;
 
     private void OnEnable()
     {
@@ -50,8 +49,7 @@ public class UIManager : MonoBehaviour
     /// </summary>
     private void ShowSaveLoadUI()
     {
-        DialogueUI.SetActive(false);
-        UtilUI.SetActive(false);
+        MainUIPanel.SetActive(false);
         MapUIPanel.SetActive(false);
         QuestLogPanel.SetActive(false);
 
@@ -67,8 +65,7 @@ public class UIManager : MonoBehaviour
         MapUIPanel.SetActive(false);
         QuestLogPanel.SetActive(false);
 
-        DialogueUI.SetActive(true);
-        UtilUI.SetActive(true);
+        MainUIPanel.SetActive(true);
     }
 
     // TODO: Map should not be toggeled if in dialogue with an NPC
@@ -78,9 +75,8 @@ public class UIManager : MonoBehaviour
     /// </summary>
     private void ShowMapUI()
     {
+        MainUIPanel.SetActive(false);
         SaveLoadUIPanel.SetActive(false);
-        DialogueUI.SetActive(false);
-        UtilUI.SetActive(false);
         QuestLogPanel.SetActive(false);
 
         MapUIPanel.SetActive(true);
@@ -91,9 +87,8 @@ public class UIManager : MonoBehaviour
     /// </summary>
     private void ShowQuestLogUI()
     {
+        MainUIPanel.SetActive(false);
         SaveLoadUIPanel.SetActive(false);
-        DialogueUI.SetActive(false);
-        UtilUI.SetActive(false);
         MapUIPanel.SetActive(false);
 
         QuestLogPanel.SetActive(true);
