@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: ENV_19_ROOK_HUT_EMPTY
+  m_EditorClassIdentifier: 
+  nodeID: ENV_19_ROOK_HUT_EMPTY
+  nodeImage: {fileID: 0}
+  speakerName: Rook's Hut
+  dialogueText: "The hut is cold now. The fire has died. The weapons still hang on
+    the walls, but their owner is gone \u2014 his blood on your hands, his blade
+    in your pack, his sacrifice weighing on your soul. The shelf where the flowers
+    once rested is empty. You took them to the queen's grave, as he asked. It was
+    the least you could do. It was nothing compared to what he gave."
+  choices:
+  - choiceText: '[Step back]'
+    nextNodeID: ENV_17_THORNWOOD_EDGE
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 

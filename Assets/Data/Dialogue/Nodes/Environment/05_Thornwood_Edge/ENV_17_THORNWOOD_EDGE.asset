@@ -28,11 +28,11 @@ MonoBehaviour:
     requiredFlags: []
     forbiddenFlags:
     - ROOK_DEAD
-    - USURPATION_PATH
+    - ISOLDE_HONORED
     grantFlags: []
     startQuestID: 
   - choiceText: '[Return to Rook]'
-    nextNodeID: NPC_13_ROOK_RETURN
+    nextNodeID: NPC_14_ROOK_RETURN
     reloadScene: 0
     requiredFlags:
     - USURPATION_PATH
@@ -42,7 +42,7 @@ MonoBehaviour:
     grantFlags: []
     startQuestID: 
   - choiceText: '[Rook''s hut stands empty...]'
-    nextNodeID: ENV_19_ROOK_HUT
+    nextNodeID: ENV_19_ROOK_HUT_EMPTY
     reloadScene: 0
     requiredFlags:
     - ROOK_DEAD

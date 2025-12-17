@@ -32,10 +32,11 @@ MonoBehaviour:
     grantFlags:
     - ISOLDE_HONORED
     startQuestID: 
-  - choiceText: '[Pay your respects silently]'
-    nextNodeID: ENV_12_CRYPT
+  - choiceText: '[Fresh flowers now rest here...]'
+    nextNodeID: ENV_16_ISOLDE_HONORED
     reloadScene: 0
-    requiredFlags: []
+    requiredFlags:
+    - ISOLDE_HONORED
     forbiddenFlags: []
     grantFlags: []
     startQuestID: 

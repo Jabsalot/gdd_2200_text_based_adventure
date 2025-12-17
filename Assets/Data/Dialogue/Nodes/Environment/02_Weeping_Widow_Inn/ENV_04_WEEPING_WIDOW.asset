@@ -41,7 +41,8 @@ MonoBehaviour:
     reloadScene: 0
     requiredFlags:
     - SALVATION_PATH
-    forbiddenFlags: []
+    forbiddenFlags:
+    - KNOWS_SALVATION_RITUAL
     grantFlags: []
     startQuestID: 
   - choiceText: '[Examine the fireplace]'

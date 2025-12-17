@@ -31,6 +31,14 @@ MonoBehaviour:
     grantFlags:
     - HAS_LAMB_BLOOD
     startQuestID: 
+  - choiceText: '[The vial is gone]'
+    nextNodeID: ENV_13_LAMB_ALTAR_TAKEN
+    reloadScene: 0
+    requiredFlags:
+    - HAS_LAMB_BLOOD
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 
   - choiceText: '[Leave it]'
     nextNodeID: ENV_12_CRYPT
     reloadScene: 0

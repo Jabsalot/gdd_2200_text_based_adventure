@@ -41,6 +41,19 @@ MonoBehaviour:
     nextNodeID: ENV_07_CHAPEL
     reloadScene: 0
     requiredFlags: []
+    forbiddenFlags:
+    - CALLUM_DEAD
+    - THOMAS_DEAD
+    - ELENA_DEAD
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '[Leave the room]'
+    nextNodeID: ENV_11_CHAPEL_EMPTY
+    reloadScene: 0
+    requiredFlags:
+    - CALLUM_DEAD
+    - THOMAS_DEAD
+    - ELENA_DEAD
     forbiddenFlags: []
     grantFlags: []
     startQuestID: 

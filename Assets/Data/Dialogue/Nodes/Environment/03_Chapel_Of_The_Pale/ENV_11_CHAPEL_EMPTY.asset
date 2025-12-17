@@ -24,10 +24,7 @@ MonoBehaviour:
   - choiceText: '[Collect their blood]'
     nextNodeID: ENV_11_COLLECT_BLOOD
     reloadScene: 0
-    requiredFlags:
-    - CALLUM_DEAD
-    - THOMAS_DEAD
-    - ELENA_DEAD
+    requiredFlags: []
     forbiddenFlags:
     - HAS_PRIEST_BLOOD
     grantFlags: []
