@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: NPC_15_ROOK_SACRIFICE
+  m_EditorClassIdentifier: 
+  nodeID: NPC_15_ROOK_SACRIFICE
+  nodeImage: {fileID: 0}
+  speakerName: Rook
+  dialogueText: "He closes his eyes, almost peaceful. \"Thank you.\" He rises and
+    enters the hut, returning with a heavy blade \u2014 black iron, worn smooth.
+    \"My executioner's blade. It's taken more heads than I can count. Now it'll take
+    one more.\" He kneels, offering his neck. \"Do it clean. And when you take the
+    crown... make it mean something.\""
+  choices:
+  - choiceText: '[Take his life]'
+    nextNodeID: NPC_15_ROOK_DEATH
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '"I can''t do this."'
+    nextNodeID: ENV_17_THORNWOOD_EDGE
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 

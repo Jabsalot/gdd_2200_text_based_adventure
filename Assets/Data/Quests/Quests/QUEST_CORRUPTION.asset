@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bc9a5bac7e8aac40bb1f206bb0bd641, type: 3}
+  m_Name: QUEST_CORRUPTION
+  m_EditorClassIdentifier: 
+  questID: QUEST_CORRUPTION
+  questName: The Seer's Freedom
+  questGiver: The Blind Seer Moira
+  questDescription: "The Blind Seer offers power in exchange for her freedom. Her
+    chains are blessed with priest blood \u2014 only the blood of Brother Callum
+    and his acolytes can break them. Murder the faithful, free the Seer, and receive
+    the Void's Embrace."
+  activationRequiredFlags: []
+  activationForbiddenFlags: []
+  questStartedFlag: QUEST_CORRUPTION_STARTED
+  stages:
+  - stageID: corruption_stage_1
+    objectiveText: Kill Brother Callum and collect his blood.
+    requiredFlags:
+    - CALLUM_DEAD
+    grantFlagsOnComplete: []
+    nextStageID: corruption_stage_2
+  - stageID: corruption_stage_2
+    objectiveText: Kill the acolytes Thomas and Elena, and collect their blood.
+    requiredFlags:
+    - THOMAS_DEAD
+    - ELENA_DEAD
+    grantFlagsOnComplete:
+    - HAS_PRIEST_BLOOD
+    nextStageID: corruption_stage_3
+  - stageID: corruption_stage_3
+    objectiveText: Return to the Blind Seer and break her chains with the priest
+      blood.
+    requiredFlags:
+    - SEER_FREED
+    grantFlagsOnComplete: []
+    nextStageID: corruption_stage_4
+  - stageID: corruption_stage_4
+    objectiveText: Receive the Void's Embrace from the Seer.
+    requiredFlags:
+    - HAS_VOID_EMBRACE
+    grantFlagsOnComplete: []
+    nextStageID: corruption_stage_5
+  - stageID: corruption_stage_5
+    objectiveText: Travel to Castle Valdros and use the Void's power to claim the
+      king for the Seer.
+    requiredFlags:
+    - SEER_ASCENDED
+    grantFlagsOnComplete: []
+    nextStageID: 
+  questCompletedFlag: QUEST_CORRUPTION_COMPLETE
+  completionRewardFlags:
+  - ENDING_CORRUPTION

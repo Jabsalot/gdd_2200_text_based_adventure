@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: CS_02_CORRUPTION_EPILOGUE
+  m_EditorClassIdentifier: 
+  nodeID: CS_02_CORRUPTION_EPILOGUE
+  nodeImage: {fileID: 0}
+  speakerName: Epilogue
+  dialogueText: "The kingdom doesn't fall. That would be too merciful. Instead, it
+    transforms. The Blind Seer rules through the king's body, issuing decrees that
+    seem benevolent at first \u2014 feeding the hungry, housing the homeless, ending
+    the executions. But something is wrong. The villagers smile too wide. The children
+    don't play. The dogs don't bark. Everyone moves in perfect harmony, perfect obedience,
+    perfect emptiness. You stand at the Seer's right hand, her faithful servant,
+    rewarded with power you never wanted and can never refuse. Sometimes, in the
+    dark of night, you hear the old king screaming inside his own skull, trapped
+    forever in the prison of his flesh. Sometimes you hear the priests you murdered,
+    asking why. Sometimes you hear your own voice, asking what you've become. The
+    Seer hears it too. She finds it amusing. THE END \u2014 CORRUPTION"
+  choices:
+  - choiceText: '[Return to Title]'
+    nextNodeID: 
+    reloadScene: 1
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 

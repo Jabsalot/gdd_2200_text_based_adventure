@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: ENV_08_CHAPEL_ALTAR
+  m_EditorClassIdentifier: 
+  nodeID: ENV_08_CHAPEL_ALTAR
+  nodeImage: {fileID: 0}
+  speakerName: Altar
+  dialogueText: "The altar is ancient stone, carved with spiraling prayers in a language
+    older than the kingdom. Dark stains mark its surface \u2014 old blood, never
+    fully cleaned. The Pale Saint's icon has been torn down, leaving only an empty
+    frame. Someone has placed fresh flowers before it anyway. Faith persists even
+    when its symbols fail."
+  choices:
+  - choiceText: '[Step back]'
+    nextNodeID: ENV_07_CHAPEL
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 

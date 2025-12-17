@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: ENV_24_THRONE_ROOM
+  m_EditorClassIdentifier: 
+  nodeID: ENV_24_THRONE_ROOM
+  nodeImage: {fileID: 0}
+  speakerName: Castle Valdros - Throne Room
+  dialogueText: "The throne room is vast and ruined. Tattered banners hang from a
+    ceiling lost in shadow. The floor is cracked, weeds growing through stone. And
+    there, on the iron throne, sits King Aldric. He was handsome once \u2014 you
+    can see it in the bones of his face. Now he's gaunt, hollow, his skin stretched
+    tight over a skull that seems too large. The Hollow Crown sits heavy on his brow,
+    pulsing with a light that isn't light. His eyes find you. \"Another one,\" he
+    whispers. \"Another assassin. Another savior. Which are you, I wonder?\""
+  choices:
+  - choiceText: '[Perform the Salvation Ritual]'
+    nextNodeID: ENV_25_SALVATION_RITUAL
+    reloadScene: 0
+    requiredFlags:
+    - HAS_LAMB_BLOOD
+    - HAS_SEER_EYES
+    - KNOWS_SALVATION_RITUAL
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '[Channel the Void''s power]'
+    nextNodeID: ENV_27_CORRUPTION_RITUAL
+    reloadScene: 0
+    requiredFlags:
+    - HAS_VOID_EMBRACE
+    - SEER_FREED
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '[Strike with the Executioner''s Blade]'
+    nextNodeID: ENV_29_USURPATION_KILL
+    reloadScene: 0
+    requiredFlags:
+    - HAS_EXECUTIONER_BLADE
+    - HAS_WILLING_BLOOD
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '["I''m here to help you."]'
+    nextNodeID: ENV_24_KING_TALK_HELP
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '["I''m here to end this."]'
+    nextNodeID: ENV_24_KING_TALK_END
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '[Retreat]'
+    nextNodeID: ENV_24_RETREAT
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 

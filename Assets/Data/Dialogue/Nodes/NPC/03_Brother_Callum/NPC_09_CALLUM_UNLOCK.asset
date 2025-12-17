@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: NPC_09_CALLUM_UNLOCK
+  m_EditorClassIdentifier: 
+  nodeID: NPC_09_CALLUM_UNLOCK
+  nodeImage: {fileID: 0}
+  speakerName: Brother Callum
+  dialogueText: He produces another key, older and more ornate. "The relics room
+    is behind the altar. Take what time you need." He returns to his prayers, though
+    you notice his eyes following you.
+  choices:
+  - choiceText: '[Continue]'
+    nextNodeID: ENV_07_CHAPEL
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags:
+    - RELICS_ROOM_UNLOCKED
+    startQuestID: 

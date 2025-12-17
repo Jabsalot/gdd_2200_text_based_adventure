@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bc9a5bac7e8aac40bb1f206bb0bd641, type: 3}
+  m_Name: QUEST_USURPATION
+  m_EditorClassIdentifier: 
+  questID: QUEST_USURPATION
+  questName: The Crown's Price
+  questGiver: Rook the Hermit
+  questDescription: "Rook knows how to kill a king protected by the Hollow Crown:
+    a willing sacrifice, blood freely given. He offers his own life in exchange for
+    one final act of penance \u2014 leave flowers at Queen Isolde's hidden grave
+    in the crypt."
+  activationRequiredFlags: []
+  activationForbiddenFlags: []
+  questStartedFlag: QUEST_USURPATION_STARTED
+  stages:
+  - stageID: usurpation_stage_1
+    objectiveText: Find Queen Isolde's hidden grave in the crypt and leave Rook's
+      flowers.
+    requiredFlags:
+    - ISOLDE_HONORED
+    grantFlagsOnComplete: []
+    nextStageID: usurpation_stage_2
+  - stageID: usurpation_stage_2
+    objectiveText: Return to Rook and accept his sacrifice.
+    requiredFlags:
+    - ROOK_DEAD
+    grantFlagsOnComplete: []
+    nextStageID: usurpation_stage_3
+  - stageID: usurpation_stage_3
+    objectiveText: Travel to Castle Valdros, kill the king, and claim the Hollow
+      Crown.
+    requiredFlags:
+    - CROWN_CLAIMED
+    grantFlagsOnComplete: []
+    nextStageID: 
+  questCompletedFlag: QUEST_USURPATION_COMPLETE
+  completionRewardFlags:
+  - ENDING_USURPATION

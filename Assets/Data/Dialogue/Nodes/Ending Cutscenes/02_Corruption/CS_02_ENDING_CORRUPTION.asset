@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: CS_02_ENDING_CORRUPTION
+  m_EditorClassIdentifier: 
+  nodeID: CS_02_ENDING_CORRUPTION
+  nodeImage: {fileID: 0}
+  speakerName: 
+  dialogueText: "The Void pours through you, a river of darkness flooding into the
+    king's broken mind. You feel the Seer riding your power, sliding into his flesh
+    like a hand into a glove. Aldric's screams cut off abruptly. When he opens his
+    eyes again, they're not his eyes anymore. They're not anyone's eyes. \"At last.\"
+    The Seer speaks through the king's mouth, but her voice echoes from everywhere
+    \u2014 from you, from the walls, from the crown itself. \"Fifty years in chains.
+    Fifty years of patience. And now...\" The king's body rises, joints cracking,
+    muscles remembering movements they never learned. \"Now I have a kingdom.\" She
+    turns to you, and though you're standing behind the throne, those borrowed eyes
+    find you anyway. \"You did well, little servant. I'll remember that.\" The Hollow
+    Crown pulses on Aldric's brow \u2014 no, on her brow now. It doesn't fight her.
+    It welcomes her. It recognizes something kindred. Something worse."
+  choices:
+  - choiceText: '[The End]'
+    nextNodeID: CS_02_CORRUPTION_EPILOGUE
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags:
+    - ENDING_CORRUPTION
+    - QUEST_CORRUPTION_COMPLETE
+    startQuestID: 

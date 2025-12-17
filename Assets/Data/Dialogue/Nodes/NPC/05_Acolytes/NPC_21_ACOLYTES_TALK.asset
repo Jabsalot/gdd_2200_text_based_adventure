@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: NPC_21_ACOLYTES_TALK
+  m_EditorClassIdentifier: 
+  nodeID: NPC_21_ACOLYTES_TALK
+  nodeImage: {fileID: 0}
+  speakerName: Elena
+  dialogueText: '"I''m Elena. This is Thomas. We came to the chapel when our village
+    was..." She trails off. Thomas takes over. "Destroyed. The king''s soldiers came.
+    Our families..." He can''t finish. Elena squeezes his hand. "Brother Callum took
+    us in. He said if we pray hard enough, maybe things will get better." She looks
+    at you with desperate hope. "Do you think that''s true?"'
+  choices:
+  - choiceText: '"I hope so."'
+    nextNodeID: ENV_07_CHAPEL
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '"No."'
+    nextNodeID: ENV_07_CHAPEL
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 

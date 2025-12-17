@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: ENV_13_LAMB_ALTAR_TAKEN
+  m_EditorClassIdentifier: 
+  nodeID: ENV_13_LAMB_ALTAR_TAKEN
+  nodeImage: {fileID: 0}
+  speakerName: Lamb Altar
+  dialogueText: The vial is cold in your hands, colder than stone should be. The
+    blood inside shifts like it's still liquid, though it dried decades ago. You
+    tell yourself it's for a good cause. You tell yourself the child is long dead
+    anyway. The altar doesn't judge you. It's seen worse.
+  choices:
+  - choiceText: '[Continue]'
+    nextNodeID: ENV_12_CRYPT
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: NPC_22_ACOLYTES_ATTACK
+  m_EditorClassIdentifier: 
+  nodeID: NPC_22_ACOLYTES_ATTACK
+  nodeImage: {fileID: 0}
+  speakerName: 
+  dialogueText: They see you coming. They see Callum's blood. Thomas tries to shield
+    Elena. Elena screams for the Saint. Neither works. Thomas dies reaching for his
+    prayer beads. Elena dies holding them. Their blood mixes with Callum's. Three
+    deaths. Three innocents. The Seer's chains will break now. You tell yourself
+    it's worth it. The Pale Saint watches with his missing face, and keeps his judgment
+    to himself.
+  choices:
+  - choiceText: '[Continue]'
+    nextNodeID: ENV_11_CHAPEL_EMPTY
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags:
+    - THOMAS_DEAD
+    - ELENA_DEAD
+    - HAS_ACOLYTE_BLOOD
+    startQuestID: 

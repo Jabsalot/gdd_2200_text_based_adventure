@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: NPC_17_MOIRA_SAVE
+  m_EditorClassIdentifier: 
+  nodeID: NPC_17_MOIRA_SAVE
+  nodeImage: {fileID: 0}
+  speakerName: The Blind Seer
+  dialogueText: '"Save him?" She laughs cruelly. "The king is beyond saving. The
+    crown has eaten everything he was." She pauses. "But if you''re determined to
+    try, you''ll need my eyes. The church kept them as relics. Blood and eyes, mixed
+    with the right words, can burn away the crown''s corruption." Her voice sharpens.
+    "But you''ll do it without me. And when it fails, remember I offered you a better
+    path."'
+  choices:
+  - choiceText: '"What better path?"'
+    nextNodeID: NPC_17_MOIRA_POWER
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '"I''ll take my chances."'
+    nextNodeID: ENV_20_SEER_CELL
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 

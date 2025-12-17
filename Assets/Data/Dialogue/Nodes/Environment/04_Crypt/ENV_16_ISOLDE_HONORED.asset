@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: ENV_16_ISOLDE_HONORED
+  m_EditorClassIdentifier: 
+  nodeID: ENV_16_ISOLDE_HONORED
+  nodeImage: {fileID: 0}
+  speakerName: 
+  dialogueText: "You place Rook's dried flowers beside the wilted ones. They're humble
+    things \u2014 wildflowers from the Thornwood edge, pressed and preserved. But
+    they mean something. Rook couldn't save the queen. He couldn't even bury her
+    properly. But he could ask a stranger to bring her flowers. It's not enough.
+    It will never be enough. But it's something. The grave seems somehow lighter
+    now."
+  choices:
+  - choiceText: '[Continue]'
+    nextNodeID: ENV_12_CRYPT
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 

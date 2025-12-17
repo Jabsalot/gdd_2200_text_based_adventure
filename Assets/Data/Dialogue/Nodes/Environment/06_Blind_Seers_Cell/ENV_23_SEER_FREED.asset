@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: ENV_23_SEER_FREED
+  m_EditorClassIdentifier: 
+  nodeID: ENV_23_SEER_FREED
+  nodeImage: {fileID: 0}
+  speakerName: The Blind Seer's Cell
+  dialogueText: The chains lie broken on the stone floor, still smoking from the
+    blood that unmade them. The Seer stands now, stretching limbs that haven't moved
+    freely in decades. She's smaller than you expected. Frailer. But when she turns
+    toward you, her empty face somehow seeing, you feel the weight of something ancient
+    and hungry pressing against your mind. "You've done well, child. Now. Let me
+    give you your reward."
+  choices:
+  - choiceText: '[Receive the Void''s Embrace]'
+    nextNodeID: ENV_23_VOID_EMBRACE
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags:
+    - HAS_VOID_EMBRACE
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '[Return to the surface]'
+    nextNodeID: ENV_17_THORNWOOD_EDGE
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 

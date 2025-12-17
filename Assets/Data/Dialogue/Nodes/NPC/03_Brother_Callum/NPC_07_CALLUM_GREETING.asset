@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: NPC_07_CALLUM_GREETING
+  m_EditorClassIdentifier: 
+  nodeID: NPC_07_CALLUM_GREETING
+  nodeImage: {fileID: 0}
+  speakerName: Brother Callum
+  dialogueText: The young priest rises from his prayers, a nervous smile on his face.
+    He can't be more than twenty. "A visitor! Praise the Saint. We don't see many
+    travelers anymore." His enthusiasm feels forced, desperate. "How can I help you?
+    Are you here to pray? To confess? The Saint welcomes all."
+  choices:
+  - choiceText: '"I need access to the crypt."'
+    nextNodeID: NPC_08_CALLUM_CRYPT
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags:
+    - CRYPT_UNLOCKED
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '"What''s in the relics room?"'
+    nextNodeID: NPC_09_CALLUM_RELICS
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags:
+    - RELICS_ROOM_UNLOCKED
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '"Tell me about Queen Isolde''s grave."'
+    nextNodeID: NPC_09_CALLUM_ISOLDE
+    reloadScene: 0
+    requiredFlags:
+    - USURPATION_PATH
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '"Never mind."'
+    nextNodeID: ENV_07_CHAPEL
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 

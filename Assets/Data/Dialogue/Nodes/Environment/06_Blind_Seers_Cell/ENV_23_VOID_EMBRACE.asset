@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: ENV_23_VOID_EMBRACE
+  m_EditorClassIdentifier: 
+  nodeID: ENV_23_VOID_EMBRACE
+  nodeImage: {fileID: 0}
+  speakerName: 
+  dialogueText: "She presses her hand against your forehead, and the world goes black.
+    You're drowning \u2014 not in water but in nothing. Pure nothing. The Void pours
+    into you, cold and vast and hungry. When you surface, gasping, you're different.
+    You can feel the darkness coiled in your chest, waiting to be used. The Seer
+    smiles. \"Now you're ready. The crown won't break you. You'll break it instead.\""
+  choices:
+  - choiceText: '[Continue]'
+    nextNodeID: ENV_20_SEER_CELL
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags:
+    - HAS_VOID_EMBRACE
+    - KNOWS_CASTLE_PATH
+    startQuestID: 

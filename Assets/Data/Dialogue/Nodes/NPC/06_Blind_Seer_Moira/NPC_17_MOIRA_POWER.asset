@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: NPC_17_MOIRA_POWER
+  m_EditorClassIdentifier: 
+  nodeID: NPC_17_MOIRA_POWER
+  nodeImage: {fileID: 0}
+  speakerName: The Blind Seer
+  dialogueText: "\"Power.\" She savors the word. \"The Void's Embrace \u2014 the
+    same darkness that lives in the crown. I can teach you to control it. With it,
+    you'll be immune to the crown's corruption.\" Her chains rattle. \"But first,
+    you must free me. My chains are blessed with priest blood. Three died to bind
+    me. Three must die to break my bonds. Brother Callum and his acolytes in the
+    chapel... their blood will suffice.\""
+  choices:
+  - choiceText: '"I''ll do it."'
+    nextNodeID: NPC_18_MOIRA_QUEST
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags:
+    - CORRUPTION_PATH
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '"You want me to murder innocents."'
+    nextNodeID: NPC_18_MOIRA_JUSTIFY
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '"I refuse."'
+    nextNodeID: ENV_20_SEER_CELL
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 

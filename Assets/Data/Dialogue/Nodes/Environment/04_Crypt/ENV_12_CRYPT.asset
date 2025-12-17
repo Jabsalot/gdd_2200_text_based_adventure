@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: ENV_12_CRYPT
+  m_EditorClassIdentifier: 
+  nodeID: ENV_12_CRYPT
+  nodeImage: {fileID: 0}
+  speakerName: The Crypt
+  dialogueText: "Cold stone stairs descend into absolute darkness. Your torch pushes
+    back shadows that seem reluctant to retreat. The crypt stretches further than
+    the chapel above \u2014 tunnels branching into blackness, alcoves holding bones
+    stacked like cordwood. The air is thick with dust and old death. Two areas draw
+    your attention: an ancient altar stained black with blood, and a hidden alcove
+    marked with a wilted flower."
+  choices:
+  - choiceText: '[Examine the bloodstained altar]'
+    nextNodeID: ENV_13_LAMB_ALTAR
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '[Investigate the hidden alcove]'
+    nextNodeID: ENV_15_ISOLDE_GRAVE
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '[Search the bone alcoves]'
+    nextNodeID: ENV_14_CRYPT_BONES
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '[Return to the chapel]'
+    nextNodeID: ENV_07_CHAPEL
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags:
+    - CALLUM_DEAD
+    - THOMAS_DEAD
+    - ELENA_DEAD
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '[Return to the chapel]'
+    nextNodeID: ENV_11_CHAPEL_EMPTY
+    reloadScene: 0
+    requiredFlags:
+    - CALLUM_DEAD
+    - THOMAS_DEAD
+    - ELENA_DEAD
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 

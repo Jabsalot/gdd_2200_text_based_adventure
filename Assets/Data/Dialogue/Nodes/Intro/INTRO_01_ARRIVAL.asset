@@ -13,16 +13,18 @@ MonoBehaviour:
   m_Name: INTRO_01_ARRIVAL
   m_EditorClassIdentifier: 
   nodeID: INTRO_01_ARRIVAL
-  speakerName: Intro
-  dialogueText: "The road to Ashwick ends in mud and silence. You've traveled for
-    days following rumors\u2014whispers of a cursed king, a dying kingdom, and opportunities
-    for those brave or foolish enough to seek them. Now, standing at the edge of
-    this grey village beneath an overcast sky, you wonder if the stories were true.
-    The air smells of rot and woodsmoke. Somewhere, a crow calls."
+  nodeImage: {fileID: 0}
+  speakerName: INTRO
+  dialogueText: "The road to Ashwick ends in mud and silence. You've followed rumors
+    for weeks \u2014 whispers of a mad king, a cursed crown, and a kingdom rotting
+    from within. Some seek to save it. Others seek to profit from its fall. You haven't
+    decided which you are yet. The village lies ahead, grey and huddled beneath a
+    grey sky. Smoke rises from a single chimney."
   choices:
   - choiceText: '[Enter the village]'
-    nextNodeID: INTRO_02_FIRST_LOOK
+    nextNodeID: INTRO_02_VILLAGE_FIRST
     reloadScene: 0
     requiredFlags: []
     forbiddenFlags: []
     grantFlags: []
+    startQuestID: 

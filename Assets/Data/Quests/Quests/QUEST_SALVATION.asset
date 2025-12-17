@@ -14,25 +14,40 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questID: QUEST_SALVATION
   questName: The King's Salvation
-  questGiver: Ser Roderick
-  questDescription: King Aldric is cursed but may yet be saved. Find the Silver Saint
-    Medallion and use it to purify the Hollow Crown.
+  questGiver: Father Aldric
+  questDescription: Father Aldric believes the king can be saved through an ancient
+    purification ritual. Gather the Blood of the Lost Lamb from the crypt and the
+    Eyes of the Blind Seer from the chapel's relics room, then confront the king
+    in Castle Valdros.
   activationRequiredFlags: []
   activationForbiddenFlags: []
-  questStartedFlag: 
+  questStartedFlag: QUEST_SALVATION_STARTED
   stages:
   - stageID: salvation_stage_1
-    objectiveText: Find the Silver Saint Medallion in the chapel.
+    objectiveText: Retrieve the Blood of the Lost Lamb from the crypt beneath the
+      chapel.
     requiredFlags:
-    - HAS_SILVER_MEDALLION
+    - HAS_LAMB_BLOOD
     grantFlagsOnComplete: []
     nextStageID: salvation_stage_2
   - stageID: salvation_stage_2
-    objectiveText: Travel to Castle Valdros and use the medallion to purify the Hollow
-      Crown.
+    objectiveText: Retrieve the Eyes of the Blind Seer from the chapel's relics room.
     requiredFlags:
-    - CROWN_PURIFIED
+    - HAS_SEER_EYES
+    grantFlagsOnComplete: []
+    nextStageID: salvation_stage_3
+  - stageID: salvation_stage_3
+    objectiveText: Return to Father Aldric to learn the purification ritual.
+    requiredFlags:
+    - KNOWS_SALVATION_RITUAL
+    grantFlagsOnComplete: []
+    nextStageID: salvation_stage_4
+  - stageID: salvation_stage_4
+    objectiveText: Travel to Castle Valdros and perform the ritual to save the king.
+    requiredFlags:
+    - KING_SAVED
     grantFlagsOnComplete: []
     nextStageID: 
-  questCompletedFlag: 
-  completionRewardFlags: []
+  questCompletedFlag: QUEST_SALVATION_COMPLETE
+  completionRewardFlags:
+  - ENDING_SALVATION

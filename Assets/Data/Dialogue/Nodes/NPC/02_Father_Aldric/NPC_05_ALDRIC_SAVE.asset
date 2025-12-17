@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: NPC_05_ALDRIC_SAVE
+  m_EditorClassIdentifier: 
+  nodeID: NPC_05_ALDRIC_SAVE
+  nodeImage: {fileID: 0}
+  speakerName: Father Aldric
+  dialogueText: "For the first time, the priest sets down his bottle. \"Save him?
+    Maybe. There's a ritual \u2014 old, older than the church. It can break the crown's
+    hold.\" He leans closer. \"But the components... they're not easy. The Blood
+    of the Lost Lamb \u2014 preserved in the crypt beneath the chapel. An innocent
+    sacrificed during the church's dark days. And the Eyes of the Blind Seer \u2014
+    taken from the heretic Moira. They're kept in the chapel's relics room.\" His
+    voice hardens. \"It won't be clean. But it might work. Are you willing to rob
+    the dead to save the living?\""
+  choices:
+  - choiceText: '"I''ll do whatever it takes."'
+    nextNodeID: NPC_06_ALDRIC_QUEST
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags:
+    - SALVATION_PATH
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '"I need to think about this."'
+    nextNodeID: ENV_04_WEEPING_WIDOW
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 

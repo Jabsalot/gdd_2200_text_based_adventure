@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: NPC_01_MIRA_GREETING
+  m_EditorClassIdentifier: 
+  nodeID: NPC_01_MIRA_GREETING
+  nodeImage: {fileID: 0}
+  speakerName: Mira
+  dialogueText: The innkeeper sets down her glass and studies you with eyes that
+    have seen too much and expect worse. "A traveler. We don't get many of those
+    anymore. Most folk run from Ashwick, not toward it." She gestures at the empty
+    room. "As you can see, business is booming. What brings you to our dying little
+    corner of the kingdom?"
+  choices:
+  - choiceText: '"What''s happening to this place?"'
+    nextNodeID: NPC_02_MIRA_VILLAGE
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '"Tell me about the mad king."'
+    nextNodeID: NPC_02_MIRA_KING
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '"Who''s the drunk priest?"'
+    nextNodeID: NPC_02_MIRA_ALDRIC
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '"I''ve heard rumors of something in the forest."'
+    nextNodeID: NPC_03_MIRA_FOREST
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '"Just passing through."'
+    nextNodeID: ENV_04_WEEPING_WIDOW
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 

@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: ENV_17_THORNWOOD_EDGE
+  m_EditorClassIdentifier: 
+  nodeID: ENV_17_THORNWOOD_EDGE
+  nodeImage: {fileID: 0}
+  speakerName: The Thornwood Edge
+  dialogueText: "Where the village ends, the forest begins \u2014 and the Thornwood
+    is no ordinary forest. The trees twist toward each other like conspiring old
+    men, branches interlocking into a canopy that blocks all light. Nothing grows
+    beneath them but pale mushrooms and darker things. At the tree line, a ramshackle
+    hut leans against an ancient oak. Smoke rises from its chimney. Someone lives
+    here, at the edge of civilization and madness."
+  choices:
+  - choiceText: '[Approach the hut]'
+    nextNodeID: NPC_11_ROOK_GREETING
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags:
+    - ROOK_DEAD
+    - USURPATION_PATH
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '[Return to Rook]'
+    nextNodeID: NPC_13_ROOK_RETURN
+    reloadScene: 0
+    requiredFlags:
+    - USURPATION_PATH
+    - ISOLDE_HONORED
+    forbiddenFlags:
+    - ROOK_DEAD
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '[Rook''s hut stands empty...]'
+    nextNodeID: ENV_19_ROOK_HUT
+    reloadScene: 0
+    requiredFlags:
+    - ROOK_DEAD
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '[Examine the tree line]'
+    nextNodeID: ENV_18_THORNWOOD_TREES
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '[Follow the hidden path]'
+    nextNodeID: ENV_20_SEER_CELL
+    reloadScene: 0
+    requiredFlags:
+    - CELL_UNLOCKED
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 

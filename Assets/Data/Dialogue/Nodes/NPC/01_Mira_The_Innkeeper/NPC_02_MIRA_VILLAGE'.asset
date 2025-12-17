@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: NPC_02_MIRA_VILLAGE'
+  m_EditorClassIdentifier: 
+  nodeID: NPC_02_MIRA_VILLAGE
+  nodeImage: {fileID: 0}
+  speakerName: Mira
+  dialogueText: '"What''s happening?" She laughs bitterly. "The same thing that''s
+    been happening for years. The king goes mad, the kingdom rots, and we little
+    people suffer." She wipes the bar with a rag that only spreads the grime. "People
+    disappear. Crops fail. The castle issues decrees that make no sense. We''re dying
+    slowly, stranger. Some days I think that''s worse than dying fast."'
+  choices:
+  - choiceText: '"Tell me about the mad king."'
+    nextNodeID: NPC_02_MIRA_KING
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '"Who''s the drunk priest?"'
+    nextNodeID: NPC_02_MIRA_ALDRIC
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '"I''ve heard rumors of something in the forest."'
+    nextNodeID: NPC_03_MIRA_FOREST
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '"I should go."'
+    nextNodeID: ENV_04_WEEPING_WIDOW
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 

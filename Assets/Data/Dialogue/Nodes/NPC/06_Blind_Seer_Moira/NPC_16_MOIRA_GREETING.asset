@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: NPC_16_MOIRA_GREETING
+  m_EditorClassIdentifier: 
+  nodeID: NPC_16_MOIRA_GREETING
+  nodeImage: {fileID: 0}
+  speakerName: The Blind Seer
+  dialogueText: "She doesn't turn toward you \u2014 she has no eyes to turn. But
+    her lips curl into a smile. \"I've been waiting for you. Longer than you know.\"
+    Her voice fills the cavern from everywhere at once. \"They took my eyes because
+    I saw too much. Chained me here because I know too much. But I'm still watching,
+    little wanderer.\" She tilts her head. \"You want something. Tell me what you
+    want, and I'll tell you what it costs.\""
+  choices:
+  - choiceText: '"I want power."'
+    nextNodeID: NPC_17_MOIRA_POWER
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags:
+    - CORRUPTION_PATH
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '"I want to save the king."'
+    nextNodeID: NPC_17_MOIRA_SAVE
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags:
+    - CORRUPTION_PATH
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '"What are you?"'
+    nextNodeID: NPC_17_MOIRA_WHAT
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '"I''ve done what you asked."'
+    nextNodeID: NPC_19_MOIRA_RETURN
+    reloadScene: 0
+    requiredFlags:
+    - CORRUPTION_PATH
+    - HAS_PRIEST_BLOOD
+    forbiddenFlags:
+    - SEER_FREED
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '[Leave]'
+    nextNodeID: ENV_17_THORNWOOD_EDGE
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: NPC_19_MOIRA_FREE
+  m_EditorClassIdentifier: 
+  nodeID: NPC_19_MOIRA_FREE
+  nodeImage: {fileID: 0}
+  speakerName: 
+  dialogueText: You pour the blood over her chains. The blessed iron hisses. Smokes.
+    Screams. The links crack, shatter, fall away. The Blind Seer rises for the first
+    time in decades. She's smaller than expected. Frailer. But when she turns to
+    face you, her attention is crushing. "Now," she whispers from everywhere at once.
+    "Your reward."
+  choices:
+  - choiceText: '[Continue]'
+    nextNodeID: ENV_23_SEER_FREED
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 

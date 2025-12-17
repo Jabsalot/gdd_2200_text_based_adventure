@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: ENV_24_KING_TALK_END
+  m_EditorClassIdentifier: 
+  nodeID: ENV_24_KING_TALK_END
+  nodeImage: {fileID: 0}
+  speakerName: King Aldric
+  dialogueText: '"End this?" He smiles, and for a moment he looks almost peaceful.
+    "I''ve prayed for that. Every night, I pray for someone strong enough to end
+    this. But the crown... the crown doesn''t want to end. It wants to spread. To
+    consume. To rule through me until there''s nothing left, then find another host."
+    He leans forward. "Kill me if you can. Take the crown if you dare. But know what
+    you''re choosing. The crown doesn''t serve. It devours."'
+  choices:
+  - choiceText: '[Return to options]'
+    nextNodeID: ENV_24_THRONE_ROOM
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 

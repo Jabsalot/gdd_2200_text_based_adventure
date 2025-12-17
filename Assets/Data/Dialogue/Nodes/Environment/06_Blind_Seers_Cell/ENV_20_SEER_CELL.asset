@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: ENV_20_SEER_CELL
+  m_EditorClassIdentifier: 
+  nodeID: ENV_20_SEER_CELL
+  nodeImage: {fileID: 0}
+  speakerName: The Blind Seer's Cell
+  dialogueText: "The path through the Thornwood was invisible until you knew where
+    to look. Now it leads you to a place that shouldn't exist \u2014 a cavern beneath
+    the forest floor, lit by luminescent fungi that cast everything in sickly green.
+    At its center, chained to a pillar of black stone, kneels an old woman. A blindfold
+    covers where her eyes should be. She doesn't move as you enter, but her lips
+    curl into a smile. \"I wondered when you'd come.\""
+  choices:
+  - choiceText: '[Speak to the Blind Seer]'
+    nextNodeID: NPC_16_MOIRA_GREETING
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags:
+    - SEER_FREED
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '[Examine her chains]'
+    nextNodeID: ENV_21_SEER_CHAINS
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags:
+    - SEER_FREED
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '[Pour the priest blood on her chains]'
+    nextNodeID: NPC_19_MOIRA_RETURN
+    reloadScene: 0
+    requiredFlags:
+    - CORRUPTION_PATH
+    - HAS_PRIEST_BLOOD
+    forbiddenFlags:
+    - SEER_FREED
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '[Look at the black pool]'
+    nextNodeID: ENV_22_SEER_POOL
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '[The Seer is free now...]'
+    nextNodeID: ENV_23_SEER_FREED
+    reloadScene: 0
+    requiredFlags:
+    - SEER_FREED
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '[Return to the surface]'
+    nextNodeID: ENV_17_THORNWOOD_EDGE
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 

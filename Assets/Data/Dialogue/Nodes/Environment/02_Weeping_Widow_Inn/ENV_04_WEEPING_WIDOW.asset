@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: ENV_04_WEEPING_WIDOW
+  m_EditorClassIdentifier: 
+  nodeID: ENV_04_WEEPING_WIDOW
+  nodeImage: {fileID: 0}
+  speakerName: The Weeping Widow Inn
+  dialogueText: The inn smells of woodsmoke and old sorrow. A fire struggles in the
+    hearth, casting weak light across empty tables and dusty bottles. Behind the
+    bar, a tired woman polishes the same glass over and over. In the corner, slumped
+    in shadow, a man in priest's vestments nurses a bottle like it owes him money.
+    The sign above the door shows a woman in black, a single tear on her cheek.
+  choices:
+  - choiceText: '[Speak to the innkeeper]'
+    nextNodeID: NPC_01_MIRA_GREETING
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '[Approach the drunk priest]'
+    nextNodeID: NPC_04_ALDRIC_GREETING
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags:
+    - SALVATION_PATH
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '[Speak with Father Aldric about the ritual]'
+    nextNodeID: NPC_06_ALDRIC_PROGRESS
+    reloadScene: 0
+    requiredFlags:
+    - SALVATION_PATH
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '[Examine the fireplace]'
+    nextNodeID: ENV_05_INN_FIREPLACE
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '[Look at the bottles behind the bar]'
+    nextNodeID: ENV_06_INN_BOTTLES
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 

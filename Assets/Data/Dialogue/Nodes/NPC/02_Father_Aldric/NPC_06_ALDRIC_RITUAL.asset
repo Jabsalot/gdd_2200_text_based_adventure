@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: NPC_06_ALDRIC_RITUAL
+  m_EditorClassIdentifier: 
+  nodeID: NPC_06_ALDRIC_RITUAL
+  nodeImage: {fileID: 0}
+  speakerName: Father Aldric
+  dialogueText: "His hands tremble as he takes the vial of blood, the container of
+    eyes. \"You found them. Saints preserve us, you actually found them.\" He stands
+    \u2014 steadier than you've ever seen him. \"The ritual is simple but must be
+    performed in the king's presence.\" He teaches you phrases in a language that
+    hurts to hear. \"Hold the blood in one hand, the eyes in the other. Speak the
+    words. The crown will fight. But hold until it's done.\" He grips your shoulder.
+    \"I can show you a path to the castle. Go. Save our king.\""
+  choices:
+  - choiceText: '"I''ll save him."'
+    nextNodeID: ENV_04_WEEPING_WIDOW
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags:
+    - KNOWS_SALVATION_RITUAL
+    - KNOWS_CASTLE_PATH
+    startQuestID: 

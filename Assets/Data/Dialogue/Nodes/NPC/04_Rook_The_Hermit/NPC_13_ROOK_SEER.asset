@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: NPC_13_ROOK_SEER
+  m_EditorClassIdentifier: 
+  nodeID: NPC_13_ROOK_SEER
+  nodeImage: {fileID: 0}
+  speakerName: Rook
+  dialogueText: His expression darkens. "The witch in the woods. Moira. She's real.
+    Imprisoned beneath the Thornwood, chained with blessed iron." He leans against
+    the doorframe. "I know where she is. I've heard her whispering on moonless nights."
+    He studies you. "Why do you want to know? Looking to free her? That would be
+    a terrible mistake."
+  choices:
+  - choiceText: '"Just tell me where she is."'
+    nextNodeID: NPC_13_ROOK_SEER_LOCATION
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags:
+    - CELL_UNLOCKED
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '"What makes her so dangerous?"'
+    nextNodeID: NPC_13_ROOK_SEER_DANGER
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '"Never mind."'
+    nextNodeID: ENV_17_THORNWOOD_EDGE
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 

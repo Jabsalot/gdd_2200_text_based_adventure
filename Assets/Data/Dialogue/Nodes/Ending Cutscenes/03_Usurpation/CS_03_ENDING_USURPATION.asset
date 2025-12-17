@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: CS_03_ENDING_USURPATION
+  m_EditorClassIdentifier: 
+  nodeID: CS_03_ENDING_USURPATION
+  nodeImage: {fileID: 0}
+  speakerName: 
+  dialogueText: "You reach down and lift the Hollow Crown from the blood-soaked floor.
+    It's lighter than you expected. Heavier than you feared. Aldric's headless body
+    slumps on the throne, finally at peace. The crown whispers to you \u2014 promises
+    of power, of glory, of eternal rule. You can feel the madness scratching at the
+    edges of your mind, eager to begin its work. But Rook's blood holds it at bay.
+    His willing sacrifice bought you time. Not immunity \u2014 the crown will never
+    stop trying \u2014 but time. Years, perhaps. Decades if you're strong. You settle
+    onto the iron throne and place the crown upon your head. It fits perfectly. You
+    wonder if it was made for you. You wonder if you were made for it. Outside, the
+    sun rises on a kingdom with a new ruler. Whether you'll be better than the last
+    one or worse remains to be seen. The crown whispers suggestions. Some of them
+    might be your own thoughts. You're not sure anymore."
+  choices:
+  - choiceText: '[The End]'
+    nextNodeID: CS_03_USURPATION_EPILOGUE
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags:
+    - ENDING_USURPATION
+    - QUEST_USURPATION_COMPLETE
+    startQuestID: 

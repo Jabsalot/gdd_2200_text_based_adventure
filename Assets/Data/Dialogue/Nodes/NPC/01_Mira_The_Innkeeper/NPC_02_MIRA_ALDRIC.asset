@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: NPC_02_MIRA_ALDRIC
+  m_EditorClassIdentifier: 
+  nodeID: NPC_02_MIRA_ALDRIC
+  nodeImage: {fileID: 0}
+  speakerName: Mira
+  dialogueText: "\"Father Aldric. Used to be the most respected priest in the kingdom
+    \u2014 confessor to the crown itself. Then he tried to help the king, tried to
+    warn people, and got thrown out for his trouble.\" She shakes her head. \"Now
+    he drinks. But sometimes, when he's sober enough... he talks about ways to save
+    the king. Old rituals. Forgotten magic. If anyone knows how to fix what's broken,
+    it's him.\""
+  choices:
+  - choiceText: '"What''s the Hollow Crown?"'
+    nextNodeID: NPC_03_MIRA_CROWN
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '"I''ve heard rumors of something in the forest."'
+    nextNodeID: NPC_03_MIRA_FOREST
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '"I''ll talk to him."'
+    nextNodeID: ENV_04_WEEPING_WIDOW
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 

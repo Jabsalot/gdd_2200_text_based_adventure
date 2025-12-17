@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: ENV_19_ROOK_HUT
+  m_EditorClassIdentifier: 
+  nodeID: ENV_19_ROOK_HUT
+  nodeImage: {fileID: 0}
+  speakerName: Rook's Hut
+  dialogueText: "The hut is larger inside than it appears, but still cramped. Weapons
+    hang from every wall \u2014 axes, swords, hooks, things you don't have names
+    for. Tools of execution, collected over a lifetime of killing. A small fire burns
+    in the hearth. A bed of straw sits in the corner. And on a shelf, carefully preserved,
+    a bundle of dried wildflowers tied with black ribbon. He's been preparing these
+    for a while."
+  choices:
+  - choiceText: '[Step back]'
+    nextNodeID: ENV_17_THORNWOOD_EDGE
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 

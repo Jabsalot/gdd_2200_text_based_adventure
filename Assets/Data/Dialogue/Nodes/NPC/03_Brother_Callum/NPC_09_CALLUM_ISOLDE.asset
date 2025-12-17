@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: NPC_09_CALLUM_ISOLDE
+  m_EditorClassIdentifier: 
+  nodeID: NPC_09_CALLUM_ISOLDE
+  nodeImage: {fileID: 0}
+  speakerName: Brother Callum
+  dialogueText: His expression softens. "Queen Isolde. A good woman." He sighs. "When
+    the king ordered her execution, someone smuggled her body here, hid her in the
+    crypt in an unmarked alcove." He meets your eyes. "If you're looking to pay respects,
+    look for the wilted flowers. Someone still remembers her."
+  choices:
+  - choiceText: '"I need access to the crypt."'
+    nextNodeID: NPC_08_CALLUM_CRYPT
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags:
+    - CRYPT_UNLOCKED
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '"Thank you."'
+    nextNodeID: ENV_07_CHAPEL
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 

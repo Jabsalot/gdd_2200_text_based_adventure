@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: ENV_07_CHAPEL
+  m_EditorClassIdentifier: 
+  nodeID: ENV_07_CHAPEL
+  nodeImage: {fileID: 0}
+  speakerName: Chapel of the Pale Saint
+  dialogueText: "The chapel was beautiful once. Now the pews are splintered, the
+    windows cracked, the altar stained with something dark. Candles burn in clusters,
+    their light fighting against shadows that seem too deep. A young priest kneels
+    before the defaced altar, murmuring prayers. Two acolytes sit in the front pews,
+    heads bowed. Behind the altar, a heavy door leads to the relics room. Stone stairs
+    descend into darkness \u2014 the crypt below."
+  choices:
+  - choiceText: '[Speak to the young priest]'
+    nextNodeID: NPC_07_CALLUM_GREETING
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags:
+    - CALLUM_DEAD
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '[Attack Brother Callum]'
+    nextNodeID: NPC_10_CALLUM_ATTACK
+    reloadScene: 0
+    requiredFlags:
+    - CORRUPTION_PATH
+    forbiddenFlags:
+    - CALLUM_DEAD
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '[Speak to the acolytes]'
+    nextNodeID: NPC_20_ACOLYTES_GREETING
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags:
+    - THOMAS_DEAD
+    - ELENA_DEAD
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '[Examine the altar]'
+    nextNodeID: ENV_08_CHAPEL_ALTAR
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '[Enter the relics room]'
+    nextNodeID: ENV_09_RELICS_ROOM
+    reloadScene: 0
+    requiredFlags:
+    - RELICS_ROOM_UNLOCKED
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '[Descend to the crypt]'
+    nextNodeID: ENV_12_CRYPT
+    reloadScene: 0
+    requiredFlags:
+    - CRYPT_UNLOCKED
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '[The chapel is empty now...]'
+    nextNodeID: ENV_11_CHAPEL_EMPTY
+    reloadScene: 0
+    requiredFlags:
+    - CALLUM_DEAD
+    - THOMAS_DEAD
+    - ELENA_DEAD
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 

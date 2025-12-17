@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: NPC_20_ACOLYTES_GREETING
+  m_EditorClassIdentifier: 
+  nodeID: NPC_20_ACOLYTES_GREETING
+  nodeImage: {fileID: 0}
+  speakerName: Thomas
+  dialogueText: "Two young acolytes look up \u2014 a boy and a girl, barely out of
+    childhood. The boy speaks first. \"Are you here to worship? We can lead you in
+    prayer.\" The girl, Elena, nods eagerly. \"The Saint welcomes all, even in dark
+    times.\" Their faith is simple, unquestioning, heartbreaking."
+  choices:
+  - choiceText: '"Tell me about yourselves."'
+    nextNodeID: NPC_21_ACOLYTES_TALK
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '"Keep praying."'
+    nextNodeID: ENV_07_CHAPEL
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '[Attack the acolytes]'
+    nextNodeID: NPC_22_ACOLYTES_ATTACK
+    reloadScene: 0
+    requiredFlags:
+    - CORRUPTION_PATH
+    - CALLUM_DEAD
+    forbiddenFlags:
+    - THOMAS_DEAD
+    grantFlags: []
+    startQuestID: 

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: NPC_18_MOIRA_QUEST
+  m_EditorClassIdentifier: 
+  nodeID: NPC_18_MOIRA_QUEST
+  nodeImage: {fileID: 0}
+  speakerName: The Blind Seer
+  dialogueText: "Her smile widens until it seems to split her face. \"Wise choice.\"
+    She settles back. \"Kill the priest and his acolytes. Collect their blood \u2014
+    fresh enough that the blessing still lives. When the chains break, I will give
+    you power beyond mortal measure.\" She waves a withered hand. \"Now go. Don't
+    keep me waiting. I've waited long enough.\""
+  choices:
+  - choiceText: '"It will be done."'
+    nextNodeID: ENV_20_SEER_CELL
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags:
+    - CORRUPTION_PATH
+    startQuestID: QUEST_CORRUPTION

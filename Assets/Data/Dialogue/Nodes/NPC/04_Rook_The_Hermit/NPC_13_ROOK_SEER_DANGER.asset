@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: NPC_13_ROOK_SEER_DANGER
+  m_EditorClassIdentifier: 
+  nodeID: NPC_13_ROOK_SEER_DANGER
+  nodeImage: {fileID: 0}
+  speakerName: Rook
+  dialogueText: "\"She sees things. Knows things. Taking her eyes didn't blind her
+    \u2014 it opened something else.\" He shudders. \"They say she can speak into
+    your mind. Promise you power you shouldn't want.\" He fixes you with a hard stare.
+    \"The church didn't imprison her for heresy. They imprisoned her because she
+    was right. The crown will destroy everything. She offered to stop it \u2014 for
+    a price.\""
+  choices:
+  - choiceText: '"Tell me where she is."'
+    nextNodeID: NPC_13_ROOK_SEER_LOCATION
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags:
+    - CELL_UNLOCKED
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '"Maybe they were right to imprison her."'
+    nextNodeID: ENV_17_THORNWOOD_EDGE
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 

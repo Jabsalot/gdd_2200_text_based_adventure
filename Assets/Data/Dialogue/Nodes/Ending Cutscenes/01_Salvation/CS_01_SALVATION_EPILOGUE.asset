@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: CS_01_SALVATION_EPILOGUE
+  m_EditorClassIdentifier: 
+  nodeID: CS_01_SALVATION_EPILOGUE
+  nodeImage: {fileID: 0}
+  speakerName: Epilogue
+  dialogueText: "In the weeks that follow, King Aldric abolishes the crown's authority.
+    He cannot undo what was done, but he tries \u2014 releasing prisoners, pardoning
+    the falsely accused, opening the royal coffers to rebuild what was destroyed.
+    Father Aldric returns to the castle, no longer a drunk but a confessor once more,
+    helping the king bear the weight of his sins. You are offered titles, lands,
+    rewards. You refuse them all. The kingdom needs its resources for healing, not
+    for honoring the stranger who saved it. As you leave Ashwick for the last time,
+    you pass the fountain in the square. Someone has carved a new face on the Pale
+    Saint \u2014 crude, simple, but unmistakably hopeful. It's not much. But in a
+    kingdom that nearly fell to darkness, it's everything. THE END \u2014 SALVATION"
+  choices:
+  - choiceText: '[Return to Title]'
+    nextNodeID: 
+    reloadScene: 1
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 

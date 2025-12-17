@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: NPC_14_ROOK_RETURN
+  m_EditorClassIdentifier: 
+  nodeID: NPC_14_ROOK_RETURN
+  nodeImage: {fileID: 0}
+  speakerName: Rook
+  dialogueText: "Rook is waiting, sitting on a stump. He looks calmer \u2014 like
+    a weight has already lifted. \"Did you do it? Did you find her grave?\""
+  choices:
+  - choiceText: '"I left the flowers."'
+    nextNodeID: NPC_15_ROOK_SACRIFICE
+    reloadScene: 0
+    requiredFlags:
+    - ISOLDE_HONORED
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '"Not yet."'
+    nextNodeID: ENV_17_THORNWOOD_EDGE
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 

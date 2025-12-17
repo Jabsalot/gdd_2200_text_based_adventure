@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8afb25a1f5e15343b46d8450945e771, type: 3}
+  m_Name: NPC_03_MIRA_ROOK
+  m_EditorClassIdentifier: 
+  nodeID: NPC_03_MIRA_ROOK
+  nodeImage: {fileID: 0}
+  speakerName: Mira
+  dialogueText: "\"Rook served three kings as headsman. Killed more people than he
+    can count. He never questioned orders \u2014 until the queen.\" She shakes her
+    head. \"Story is, the king ordered Isolde executed for treason. She was innocent.
+    But Rook put down his axe and walked out. Lives at the forest's edge now, haunted
+    by everyone he ever killed. He knows things about the crown, about killing kings.
+    If you're looking for that kind of knowledge...\""
+  choices:
+  - choiceText: '"Tell me more about the witch."'
+    nextNodeID: NPC_03_MIRA_SEER
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 
+  - choiceText: '"I should go."'
+    nextNodeID: ENV_04_WEEPING_WIDOW
+    reloadScene: 0
+    requiredFlags: []
+    forbiddenFlags: []
+    grantFlags: []
+    startQuestID: 
