@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ENV_08_CHAPEL_ALTAR
   m_EditorClassIdentifier: 
   nodeID: ENV_08_CHAPEL_ALTAR
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: 671808422349728178, guid: e77471237859bdc4a826e25d5c145bcb, type: 3}
   speakerName: Altar
   dialogueText: "The altar is ancient stone, carved with spiraling prayers in a language
     older than the kingdom. Dark stains mark its surface \u2014 old blood, never

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ENV_13_LAMB_ALTAR
   m_EditorClassIdentifier: 
   nodeID: ENV_13_LAMB_ALTAR
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: -4257943123874703653, guid: d4422aefdd093f94f95754b89b78133c, type: 3}
   speakerName: Altar of the Lost Lamb
   dialogueText: "This altar is older than the chapel above, older perhaps than the
     kingdom itself. The stone is black \u2014 not painted, but stained by centuries

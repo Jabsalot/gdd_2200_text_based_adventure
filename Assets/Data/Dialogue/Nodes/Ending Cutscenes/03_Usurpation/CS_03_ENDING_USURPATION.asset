@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: CS_03_ENDING_USURPATION
   m_EditorClassIdentifier: 
   nodeID: CS_03_ENDING_USURPATION
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: -1104813176482054581, guid: 80e220ece5028894f811ae89eb9e10bf, type: 3}
   speakerName: 
   dialogueText: "You reach down and lift the Hollow Crown from the blood-soaked floor.
     It's lighter than you expected. Heavier than you feared. Aldric's headless body

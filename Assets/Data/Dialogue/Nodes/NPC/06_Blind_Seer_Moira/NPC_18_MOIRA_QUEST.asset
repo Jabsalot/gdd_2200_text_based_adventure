@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NPC_18_MOIRA_QUEST
   m_EditorClassIdentifier: 
   nodeID: NPC_18_MOIRA_QUEST
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: -7251371016799658373, guid: f2027f356abefca4c95c59b33a62449c, type: 3}
   speakerName: The Blind Seer
   dialogueText: "Her smile widens until it seems to split her face. \"Wise choice.\"
     She settles back. \"Kill the priest and his acolytes. Collect their blood \u2014

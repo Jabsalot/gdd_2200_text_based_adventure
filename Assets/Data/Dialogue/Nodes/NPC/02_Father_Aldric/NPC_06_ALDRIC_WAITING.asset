@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NPC_06_ALDRIC_WAITING
   m_EditorClassIdentifier: 
   nodeID: NPC_06_ALDRIC_WAITING
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: -6361744513906876834, guid: 0a5dd92842e63e049a37069180189f9f, type: 3}
   speakerName: Father Aldric
   dialogueText: "He nods slowly. \"The crypt holds the blood. The relics room holds
     the eyes. Brother Callum can help you access both \u2014 just don't tell him

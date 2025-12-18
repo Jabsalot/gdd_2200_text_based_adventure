@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NPC_18_MOIRA_JUSTIFY
   m_EditorClassIdentifier: 
   nodeID: NPC_18_MOIRA_JUSTIFY
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: -7251371016799658373, guid: f2027f356abefca4c95c59b33a62449c, type: 3}
   speakerName: The Blind Seer
   dialogueText: "\"Innocents?\" She laughs like breaking glass. \"Every soul in Ashwick
     will die when the crown's corruption spreads. Every child, every elder. Three

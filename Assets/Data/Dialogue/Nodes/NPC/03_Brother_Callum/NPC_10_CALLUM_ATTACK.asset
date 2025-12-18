@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NPC_10_CALLUM_ATTACK
   m_EditorClassIdentifier: 
   nodeID: NPC_10_CALLUM_ATTACK
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: 9053202341865050492, guid: 53bc74f4a3d314c4dab95394223ccf3f, type: 3}
   speakerName: Brother Callum
   dialogueText: "Callum looks up as you approach, but something in your face makes
     his smile falter. \"Is... is something wrong?\" He starts to rise, hands raised.

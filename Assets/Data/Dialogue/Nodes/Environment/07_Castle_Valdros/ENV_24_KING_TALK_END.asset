@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ENV_24_KING_TALK_END
   m_EditorClassIdentifier: 
   nodeID: ENV_24_KING_TALK_END
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: 6254702857192676462, guid: fcb5abca2ac14fd438c1203d7d3711e5, type: 3}
   speakerName: King Aldric
   dialogueText: '"End this?" He smiles, and for a moment he looks almost peaceful.
     "I''ve prayed for that. Every night, I pray for someone strong enough to end

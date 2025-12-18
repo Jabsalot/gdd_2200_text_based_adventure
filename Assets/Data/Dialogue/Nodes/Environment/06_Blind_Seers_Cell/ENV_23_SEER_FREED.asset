@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ENV_23_SEER_FREED
   m_EditorClassIdentifier: 
   nodeID: ENV_23_SEER_FREED
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: -1529400728222948102, guid: 931ff3fd49aaccf42add3f9689e103b3, type: 3}
   speakerName: The Blind Seer's Cell
   dialogueText: The chains lie broken on the stone floor, still smoking from the
     blood that unmade them. The Seer stands now, stretching limbs that haven't moved

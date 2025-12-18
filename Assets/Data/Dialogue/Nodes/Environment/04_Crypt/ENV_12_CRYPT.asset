@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ENV_12_CRYPT
   m_EditorClassIdentifier: 
   nodeID: ENV_12_CRYPT
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: -4257943123874703653, guid: d4422aefdd093f94f95754b89b78133c, type: 3}
   speakerName: The Crypt
   dialogueText: "Cold stone stairs descend into absolute darkness. Your torch pushes
     back shadows that seem reluctant to retreat. The crypt stretches further than

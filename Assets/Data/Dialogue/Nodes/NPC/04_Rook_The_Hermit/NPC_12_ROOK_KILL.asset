@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NPC_12_ROOK_KILL
   m_EditorClassIdentifier: 
   nodeID: NPC_12_ROOK_KILL
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: -3800728153567874938, guid: ea61c0d33c35c3d4abfda08a14dcb430, type: 3}
   speakerName: Rook
   dialogueText: "Something flickers in those dead eyes. \"Kill a king? Not just any
     killing. The Hollow Crown protects its wearer. Blades shatter. Poison fails.\"

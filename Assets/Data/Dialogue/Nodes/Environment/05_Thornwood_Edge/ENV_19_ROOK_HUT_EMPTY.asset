@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ENV_19_ROOK_HUT_EMPTY
   m_EditorClassIdentifier: 
   nodeID: ENV_19_ROOK_HUT_EMPTY
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: -8758900892900530261, guid: 422b2729bba85334bacf67bfcc032cb0, type: 3}
   speakerName: Rook's Hut
   dialogueText: "The hut is cold now. The fire has died. The weapons still hang on
     the walls, but their owner is gone \u2014 his blood on your hands, his blade

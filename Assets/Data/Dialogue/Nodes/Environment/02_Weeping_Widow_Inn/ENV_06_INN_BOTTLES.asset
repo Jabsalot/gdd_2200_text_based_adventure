@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ENV_06_INN_BOTTLES
   m_EditorClassIdentifier: 
   nodeID: ENV_06_INN_BOTTLES
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: 2767952817952214318, guid: e9861bf191124a54c8e575c5600978d2, type: 3}
   speakerName: Bottles
   dialogueText: "Dusty bottles line the shelves, more empty than full. The labels
     speak of better times \u2014 vintages from the southern valleys, spirits from

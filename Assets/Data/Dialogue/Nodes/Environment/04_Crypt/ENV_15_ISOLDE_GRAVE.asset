@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ENV_15_ISOLDE_GRAVE
   m_EditorClassIdentifier: 
   nodeID: ENV_15_ISOLDE_GRAVE
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: -4257943123874703653, guid: d4422aefdd093f94f95754b89b78133c, type: 3}
   speakerName: Hidden Alcove
   dialogueText: "The alcove is nearly invisible \u2014 you'd miss it if not for the
     wilted flower someone left at its entrance. Inside, a simple stone marker bears

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ENV_17_THORNWOOD_EDGE
   m_EditorClassIdentifier: 
   nodeID: ENV_17_THORNWOOD_EDGE
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: -8758900892900530261, guid: 422b2729bba85334bacf67bfcc032cb0, type: 3}
   speakerName: The Thornwood Edge
   dialogueText: "Where the village ends, the forest begins \u2014 and the Thornwood
     is no ordinary forest. The trees twist toward each other like conspiring old

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ENV_20_SEER_CELL
   m_EditorClassIdentifier: 
   nodeID: ENV_20_SEER_CELL
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: -1529400728222948102, guid: 931ff3fd49aaccf42add3f9689e103b3, type: 3}
   speakerName: The Blind Seer's Cell
   dialogueText: "The path through the Thornwood was invisible until you knew where
     to look. Now it leads you to a place that shouldn't exist \u2014 a cavern beneath

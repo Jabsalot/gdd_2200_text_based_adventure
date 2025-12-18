@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NPC_03_MIRA_CROWN
   m_EditorClassIdentifier: 
   nodeID: NPC_03_MIRA_CROWN
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: -6241619883948048117, guid: a3512e42cf47db547b9e3c51a285737d, type: 3}
   speakerName: Mira
   dialogueText: "\"Old thing. Older than the kingdom, some say. The first king found
     it in the Thornwood, in some ancient shrine. It gave him power \u2014 made him

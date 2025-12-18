@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: INTRO_02_VILLAGE_FIRST
   m_EditorClassIdentifier: 
   nodeID: INTRO_02_VILLAGE_FIRST
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: 3155941044689556391, guid: cf55380e23dc6f447b69cd2b3614ccae, type: 3}
   speakerName: INTRO
   dialogueText: Ashwick is a village holding its breath. Doors are barred. Windows
     are shuttered. The few souls you pass keep their eyes down, hurrying past like

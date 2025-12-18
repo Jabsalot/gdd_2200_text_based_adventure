@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: INTRO_01_ARRIVAL
   m_EditorClassIdentifier: 
   nodeID: INTRO_01_ARRIVAL
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: 6946117702425723874, guid: 3379f98df5f8afe45ab9698a83650504, type: 3}
   speakerName: INTRO
   dialogueText: "The road to Ashwick ends in mud and silence. You've followed rumors
     for weeks \u2014 whispers of a mad king, a cursed crown, and a kingdom rotting

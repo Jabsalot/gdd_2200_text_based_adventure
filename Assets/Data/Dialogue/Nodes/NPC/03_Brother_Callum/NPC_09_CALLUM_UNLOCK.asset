@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NPC_09_CALLUM_UNLOCK
   m_EditorClassIdentifier: 
   nodeID: NPC_09_CALLUM_UNLOCK
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: 9053202341865050492, guid: 53bc74f4a3d314c4dab95394223ccf3f, type: 3}
   speakerName: Brother Callum
   dialogueText: He produces another key, older and more ornate. "The relics room
     is behind the altar. Take what time you need." He returns to his prayers, though

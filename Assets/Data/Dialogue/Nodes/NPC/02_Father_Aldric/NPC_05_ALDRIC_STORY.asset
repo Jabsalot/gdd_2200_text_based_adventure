@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NPC_05_ALDRIC_STORY
   m_EditorClassIdentifier: 
   nodeID: NPC_05_ALDRIC_STORY
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: -6361744513906876834, guid: 0a5dd92842e63e049a37069180189f9f, type: 3}
   speakerName: Father Aldric
   dialogueText: "He takes a long drink before answering. \"Twenty years. Twenty years
     I served as the king's confessor. I heard his hopes, his fears, his sins. I watched

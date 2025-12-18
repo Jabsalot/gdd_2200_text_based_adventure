@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ENV_05_INN_FIREPLACE
   m_EditorClassIdentifier: 
   nodeID: ENV_05_INN_FIREPLACE
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: 2767952817952214318, guid: e9861bf191124a54c8e575c5600978d2, type: 3}
   speakerName: Fireplace
   dialogueText: "The fire is almost dead, more ember than flame. A few logs sit beside
     it, but no one has bothered to add them. Above the mantle hangs a faded portrait

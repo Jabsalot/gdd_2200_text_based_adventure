@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ENV_19_ROOK_HUT
   m_EditorClassIdentifier: 
   nodeID: ENV_19_ROOK_HUT
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: -8758900892900530261, guid: 422b2729bba85334bacf67bfcc032cb0, type: 3}
   speakerName: Rook's Hut
   dialogueText: "The hut is larger inside than it appears, but still cramped. Weapons
     hang from every wall \u2014 axes, swords, hooks, things you don't have names

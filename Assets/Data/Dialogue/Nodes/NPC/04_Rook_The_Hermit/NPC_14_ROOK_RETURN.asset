@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NPC_14_ROOK_RETURN
   m_EditorClassIdentifier: 
   nodeID: NPC_14_ROOK_RETURN
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: -3800728153567874938, guid: ea61c0d33c35c3d4abfda08a14dcb430, type: 3}
   speakerName: Rook
   dialogueText: "Rook is waiting, sitting on a stump. He looks calmer \u2014 like
     a weight has already lifted. \"Did you do it? Did you find her grave?\""

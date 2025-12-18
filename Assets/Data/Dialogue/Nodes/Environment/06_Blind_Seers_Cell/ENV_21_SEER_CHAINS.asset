@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ENV_21_SEER_CHAINS
   m_EditorClassIdentifier: 
   nodeID: ENV_21_SEER_CHAINS
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: -1529400728222948102, guid: 931ff3fd49aaccf42add3f9689e103b3, type: 3}
   speakerName: 
   dialogueText: "The chains are iron, old and rusted, but stronger than they appear.
     Blessed, you realize \u2014 symbols of the Pale Saint are etched into every link.

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NPC_03_MIRA_ROOK
   m_EditorClassIdentifier: 
   nodeID: NPC_03_MIRA_ROOK
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: -6241619883948048117, guid: a3512e42cf47db547b9e3c51a285737d, type: 3}
   speakerName: Mira
   dialogueText: "\"Rook served three kings as headsman. Killed more people than he
     can count. He never questioned orders \u2014 until the queen.\" She shakes her

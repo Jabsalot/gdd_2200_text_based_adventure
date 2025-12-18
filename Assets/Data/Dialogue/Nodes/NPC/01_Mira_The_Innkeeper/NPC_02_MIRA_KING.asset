@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NPC_02_MIRA_KING
   m_EditorClassIdentifier: 
   nodeID: NPC_02_MIRA_KING
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: -6241619883948048117, guid: a3512e42cf47db547b9e3c51a285737d, type: 3}
   speakerName: Mira
   dialogueText: "\"King Aldric wasn't always like this. My mother served at the castle
     \u2014 she said he was kind once. Just. Then the Hollow Crown started changing

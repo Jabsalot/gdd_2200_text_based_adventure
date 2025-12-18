@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NPC_06_ALDRIC_PROGRESS
   m_EditorClassIdentifier: 
   nodeID: NPC_06_ALDRIC_PROGRESS
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: -6361744513906876834, guid: 0a5dd92842e63e049a37069180189f9f, type: 3}
   speakerName: Father Aldric
   dialogueText: "The priest looks up as you approach. He's not drinking \u2014 a
     small miracle. \"Have you found them? The blood and the eyes?\""

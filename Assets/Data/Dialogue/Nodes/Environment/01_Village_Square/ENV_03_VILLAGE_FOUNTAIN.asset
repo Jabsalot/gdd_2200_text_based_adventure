@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ENV_03_VILLAGE_FOUNTAIN
   m_EditorClassIdentifier: 
   nodeID: ENV_03_VILLAGE_FOUNTAIN
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: -1024644306501978966, guid: 2b882f955f7552643a67ae2d48f946f4, type: 3}
   speakerName: 
   dialogueText: "The fountain has been dry for years. The Pale Saint stands with
     arms outstretched, a chalice raised to heaven \u2014 but where the face should

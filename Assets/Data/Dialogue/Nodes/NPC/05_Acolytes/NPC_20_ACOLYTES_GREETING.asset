@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NPC_20_ACOLYTES_GREETING
   m_EditorClassIdentifier: 
   nodeID: NPC_20_ACOLYTES_GREETING
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: 8214126911762434781, guid: 87a11cae93478fb488fcbb456b1ab339, type: 3}
   speakerName: Thomas
   dialogueText: "Two young acolytes look up \u2014 a boy and a girl, barely out of
     childhood. The boy speaks first. \"Are you here to worship? We can lead you in

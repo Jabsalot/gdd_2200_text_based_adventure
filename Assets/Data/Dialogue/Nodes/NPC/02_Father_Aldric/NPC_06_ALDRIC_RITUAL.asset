@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NPC_06_ALDRIC_RITUAL
   m_EditorClassIdentifier: 
   nodeID: NPC_06_ALDRIC_RITUAL
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: -6361744513906876834, guid: 0a5dd92842e63e049a37069180189f9f, type: 3}
   speakerName: Father Aldric
   dialogueText: "His hands tremble as he takes the vial of blood, the container of
     eyes. \"You found them. Saints preserve us, you actually found them.\" He stands

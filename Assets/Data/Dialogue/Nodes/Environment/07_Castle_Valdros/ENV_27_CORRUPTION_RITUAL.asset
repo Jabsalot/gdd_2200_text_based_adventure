@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ENV_27_CORRUPTION_RITUAL
   m_EditorClassIdentifier: 
   nodeID: ENV_27_CORRUPTION_RITUAL
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: 6254702857192676462, guid: fcb5abca2ac14fd438c1203d7d3711e5, type: 3}
   speakerName: 
   dialogueText: "The Void inside you responds to your call, surging up through your
     chest and out through your eyes. Black tendrils of nothing pour from your hands,

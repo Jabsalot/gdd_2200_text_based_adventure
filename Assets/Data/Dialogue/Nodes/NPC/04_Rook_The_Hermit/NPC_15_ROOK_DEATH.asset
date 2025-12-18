@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NPC_15_ROOK_DEATH
   m_EditorClassIdentifier: 
   nodeID: NPC_15_ROOK_DEATH
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: -3800728153567874938, guid: ea61c0d33c35c3d4abfda08a14dcb430, type: 3}
   speakerName: 
   dialogueText: "The blade is heavier than it looks, but it cuts clean. Rook's eyes
     find yours as the steel swings, and in that final moment, you see gratitude.

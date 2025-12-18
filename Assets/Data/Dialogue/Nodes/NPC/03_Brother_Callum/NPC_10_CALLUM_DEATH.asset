@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NPC_10_CALLUM_DEATH
   m_EditorClassIdentifier: 
   nodeID: NPC_10_CALLUM_DEATH
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: 9053202341865050492, guid: 53bc74f4a3d314c4dab95394223ccf3f, type: 3}
   speakerName: 
   dialogueText: It's quick, at least. Callum's eyes widen, then empty. He falls before
     the altar he spent his life tending, blood pooling on ancient stones. The candles

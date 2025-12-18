@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: CS_03_USURPATION_EPILOGUE
   m_EditorClassIdentifier: 
   nodeID: CS_03_USURPATION_EPILOGUE
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: -1104813176482054581, guid: 80e220ece5028894f811ae89eb9e10bf, type: 3}
   speakerName: Epilogue
   dialogueText: "They call you the Stranger King. The one who came from nowhere,
     killed a tyrant, and claimed his throne. Some say you're a hero. Others whisper

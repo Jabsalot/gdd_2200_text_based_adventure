@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NPC_11_ROOK_GREETING
   m_EditorClassIdentifier: 
   nodeID: NPC_11_ROOK_GREETING
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: -3800728153567874938, guid: ea61c0d33c35c3d4abfda08a14dcb430, type: 3}
   speakerName: Rook
   dialogueText: The door opens before you knock, revealing a massive man with a face
     like weathered stone. Scars cross his features. He's missing two fingers on his

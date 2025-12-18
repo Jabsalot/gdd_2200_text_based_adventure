@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ENV_02_VILLAGE_NOTICE
   m_EditorClassIdentifier: 
   nodeID: ENV_02_VILLAGE_NOTICE
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: -1024644306501978966, guid: 2b882f955f7552643a67ae2d48f946f4, type: 3}
   speakerName: Notice Board
   dialogueText: "The notice board is a collage of misery. Missing persons notices
     \u2014 dozens of them, faces faded by rain. A royal decree, torn and stained,

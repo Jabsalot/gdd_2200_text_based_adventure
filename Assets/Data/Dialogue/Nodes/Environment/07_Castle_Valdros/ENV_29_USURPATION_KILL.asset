@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ENV_29_USURPATION_KILL
   m_EditorClassIdentifier: 
   nodeID: ENV_29_USURPATION_KILL
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: 6254702857192676462, guid: fcb5abca2ac14fd438c1203d7d3711e5, type: 3}
   speakerName: 
   dialogueText: "The executioner's blade feels right in your hand \u2014 balanced,
     patient, eager. Rook's blood still stains its edge, freely given, still warm

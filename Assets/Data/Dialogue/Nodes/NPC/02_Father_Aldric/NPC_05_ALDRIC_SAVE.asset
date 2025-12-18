@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NPC_05_ALDRIC_SAVE
   m_EditorClassIdentifier: 
   nodeID: NPC_05_ALDRIC_SAVE
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: -6361744513906876834, guid: 0a5dd92842e63e049a37069180189f9f, type: 3}
   speakerName: Father Aldric
   dialogueText: "For the first time, the priest sets down his bottle. \"Save him?
     Maybe. There's a ritual \u2014 old, older than the church. It can break the crown's

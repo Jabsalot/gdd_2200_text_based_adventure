@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NPC_06_ALDRIC_QUEST
   m_EditorClassIdentifier: 
   nodeID: NPC_06_ALDRIC_QUEST
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: -6361744513906876834, guid: 0a5dd92842e63e049a37069180189f9f, type: 3}
   speakerName: Father Aldric
   dialogueText: For a moment, hope flickers in his bloodshot eyes. "Then the king
     may yet be saved. Find the blood and the eyes. Bring them to me, and I'll teach

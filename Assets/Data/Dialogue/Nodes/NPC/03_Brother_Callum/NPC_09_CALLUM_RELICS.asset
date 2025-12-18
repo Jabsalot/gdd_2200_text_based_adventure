@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NPC_09_CALLUM_RELICS
   m_EditorClassIdentifier: 
   nodeID: NPC_09_CALLUM_RELICS
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: 9053202341865050492, guid: 53bc74f4a3d314c4dab95394223ccf3f, type: 3}
   speakerName: Brother Callum
   dialogueText: '"The relics room holds what remains of our sacred artifacts. Most
     were sold or stolen. What''s left..." He shrugs. "Bones of saints. Blessed cloth.

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NPC_13_ROOK_SEER_DANGER
   m_EditorClassIdentifier: 
   nodeID: NPC_13_ROOK_SEER_DANGER
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: -3800728153567874938, guid: ea61c0d33c35c3d4abfda08a14dcb430, type: 3}
   speakerName: Rook
   dialogueText: "\"She sees things. Knows things. Taking her eyes didn't blind her
     \u2014 it opened something else.\" He shudders. \"They say she can speak into

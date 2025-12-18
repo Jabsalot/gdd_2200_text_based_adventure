@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NPC_02_MIRA_VILLAGE'
   m_EditorClassIdentifier: 
   nodeID: NPC_02_MIRA_VILLAGE
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: -6241619883948048117, guid: a3512e42cf47db547b9e3c51a285737d, type: 3}
   speakerName: Mira
   dialogueText: '"What''s happening?" She laughs bitterly. "The same thing that''s
     been happening for years. The king goes mad, the kingdom rots, and we little

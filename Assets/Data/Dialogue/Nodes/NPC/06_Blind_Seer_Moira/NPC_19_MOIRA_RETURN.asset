@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NPC_19_MOIRA_RETURN
   m_EditorClassIdentifier: 
   nodeID: NPC_19_MOIRA_RETURN
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: -7251371016799658373, guid: f2027f356abefca4c95c59b33a62449c, type: 3}
   speakerName: The Blind Seer
   dialogueText: She lifts her head, nostrils flaring. "I smell it. Blood. Holy blood.
     Fresh and screaming with broken faith." Her chains rattle with eagerness. "You

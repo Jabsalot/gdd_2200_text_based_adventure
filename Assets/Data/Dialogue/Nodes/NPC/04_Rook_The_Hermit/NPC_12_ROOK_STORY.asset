@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NPC_12_ROOK_STORY
   m_EditorClassIdentifier: 
   nodeID: NPC_12_ROOK_STORY
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: -3800728153567874938, guid: ea61c0d33c35c3d4abfda08a14dcb430, type: 3}
   speakerName: Rook
   dialogueText: '"I''m nobody. Now." He turns into the hut, leaving the door open.
     Inside, weapons line every wall. "Used to be somebody. Royal executioner. Three

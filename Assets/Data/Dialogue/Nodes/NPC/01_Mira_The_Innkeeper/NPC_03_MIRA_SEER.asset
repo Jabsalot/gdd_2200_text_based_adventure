@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NPC_03_MIRA_SEER
   m_EditorClassIdentifier: 
   nodeID: NPC_03_MIRA_SEER
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: -6241619883948048117, guid: a3512e42cf47db547b9e3c51a285737d, type: 3}
   speakerName: Mira
   dialogueText: '"The Blind Seer. Moira." Her voice is barely a whisper. "She was
     an oracle. The most powerful the kingdom ever knew. Until she prophesied the

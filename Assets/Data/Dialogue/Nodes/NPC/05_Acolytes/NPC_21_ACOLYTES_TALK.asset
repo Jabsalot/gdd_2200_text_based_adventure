@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NPC_21_ACOLYTES_TALK
   m_EditorClassIdentifier: 
   nodeID: NPC_21_ACOLYTES_TALK
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: 8214126911762434781, guid: 87a11cae93478fb488fcbb456b1ab339, type: 3}
   speakerName: Elena
   dialogueText: '"I''m Elena. This is Thomas. We came to the chapel when our village
     was..." She trails off. Thomas takes over. "Destroyed. The king''s soldiers came.

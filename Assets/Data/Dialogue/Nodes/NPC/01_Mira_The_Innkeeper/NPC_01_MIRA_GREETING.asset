@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NPC_01_MIRA_GREETING
   m_EditorClassIdentifier: 
   nodeID: NPC_01_MIRA_GREETING
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: -6241619883948048117, guid: a3512e42cf47db547b9e3c51a285737d, type: 3}
   speakerName: Mira
   dialogueText: The innkeeper sets down her glass and studies you with eyes that
     have seen too much and expect worse. "A traveler. We don't get many of those

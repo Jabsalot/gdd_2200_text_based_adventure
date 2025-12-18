@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ENV_04_WEEPING_WIDOW
   m_EditorClassIdentifier: 
   nodeID: ENV_04_WEEPING_WIDOW
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: 2767952817952214318, guid: e9861bf191124a54c8e575c5600978d2, type: 3}
   speakerName: The Weeping Widow Inn
   dialogueText: The inn smells of woodsmoke and old sorrow. A fire struggles in the
     hearth, casting weak light across empty tables and dusty bottles. Behind the

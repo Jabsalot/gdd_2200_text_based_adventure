@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ENV_14_CRYPT_BONES
   m_EditorClassIdentifier: 
   nodeID: ENV_14_CRYPT_BONES
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: -4257943123874703653, guid: d4422aefdd093f94f95754b89b78133c, type: 3}
   speakerName: Bone Pile
   dialogueText: "Bones upon bones, stacked in alcoves like library shelves. Skulls
     grin at you from the darkness, empty eyes tracking your torch. These are the

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NPC_22_ACOLYTES_ATTACK
   m_EditorClassIdentifier: 
   nodeID: NPC_22_ACOLYTES_ATTACK
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: 8214126911762434781, guid: 87a11cae93478fb488fcbb456b1ab339, type: 3}
   speakerName: 
   dialogueText: They see you coming. They see Callum's blood. Thomas tries to shield
     Elena. Elena screams for the Saint. Neither works. Thomas dies reaching for his

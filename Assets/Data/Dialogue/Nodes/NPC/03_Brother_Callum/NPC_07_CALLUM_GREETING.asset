@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NPC_07_CALLUM_GREETING
   m_EditorClassIdentifier: 
   nodeID: NPC_07_CALLUM_GREETING
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: 9053202341865050492, guid: 53bc74f4a3d314c4dab95394223ccf3f, type: 3}
   speakerName: Brother Callum
   dialogueText: The young priest rises from his prayers, a nervous smile on his face.
     He can't be more than twenty. "A visitor! Praise the Saint. We don't see many

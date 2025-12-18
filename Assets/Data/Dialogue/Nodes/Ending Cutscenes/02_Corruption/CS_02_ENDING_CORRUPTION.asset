@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: CS_02_ENDING_CORRUPTION
   m_EditorClassIdentifier: 
   nodeID: CS_02_ENDING_CORRUPTION
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: 6439769894913243555, guid: 6b3b56f8d765b5045ad9b46a962d0574, type: 3}
   speakerName: 
   dialogueText: "The Void pours through you, a river of darkness flooding into the
     king's broken mind. You feel the Seer riding your power, sliding into his flesh

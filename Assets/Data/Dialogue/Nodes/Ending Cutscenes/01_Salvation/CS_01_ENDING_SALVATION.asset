@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: CS_01_ENDING_SALVATION
   m_EditorClassIdentifier: 
   nodeID: CS_01_ENDING_SALVATION
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: -3739041017295025646, guid: 2cd0ffb1fa2bf024192ad397462a640e, type: 3}
   speakerName: 
   dialogueText: "The light fades. The crown lies in pieces on the floor, its hunger
     finally silenced. King Aldric collapses, gasping, weeping, suddenly mortal again.

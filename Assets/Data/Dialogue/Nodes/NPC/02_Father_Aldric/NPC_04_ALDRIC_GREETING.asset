@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NPC_04_ALDRIC_GREETING
   m_EditorClassIdentifier: 
   nodeID: NPC_04_ALDRIC_GREETING
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: -6361744513906876834, guid: 0a5dd92842e63e049a37069180189f9f, type: 3}
   speakerName: Father Aldric
   dialogueText: The priest doesn't look up as you approach. His vestments are stained,
     his beard unkempt, his eyes fixed on the bottle before him. "If you're here for

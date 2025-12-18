@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NPC_16_MOIRA_GREETING
   m_EditorClassIdentifier: 
   nodeID: NPC_16_MOIRA_GREETING
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: -7251371016799658373, guid: f2027f356abefca4c95c59b33a62449c, type: 3}
   speakerName: The Blind Seer
   dialogueText: "She doesn't turn toward you \u2014 she has no eyes to turn. But
     her lips curl into a smile. \"I've been waiting for you. Longer than you know.\"

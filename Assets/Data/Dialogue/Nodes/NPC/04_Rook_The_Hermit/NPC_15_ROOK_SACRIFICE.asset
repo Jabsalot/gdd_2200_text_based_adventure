@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NPC_15_ROOK_SACRIFICE
   m_EditorClassIdentifier: 
   nodeID: NPC_15_ROOK_SACRIFICE
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: -3800728153567874938, guid: ea61c0d33c35c3d4abfda08a14dcb430, type: 3}
   speakerName: Rook
   dialogueText: "He closes his eyes, almost peaceful. \"Thank you.\" He rises and
     enters the hut, returning with a heavy blade \u2014 black iron, worn smooth.

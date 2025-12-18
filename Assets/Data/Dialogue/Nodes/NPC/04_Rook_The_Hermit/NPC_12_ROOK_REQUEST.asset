@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NPC_12_ROOK_REQUEST
   m_EditorClassIdentifier: 
   nodeID: NPC_12_ROOK_REQUEST
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: -3800728153567874938, guid: ea61c0d33c35c3d4abfda08a14dcb430, type: 3}
   speakerName: Rook
   dialogueText: '"Queen Isolde is buried in the crypt beneath the chapel. Hidden
     grave, unmarked." He retrieves a bundle of dried flowers, tied with black ribbon.

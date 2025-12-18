@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NPC_19_MOIRA_FREE
   m_EditorClassIdentifier: 
   nodeID: NPC_19_MOIRA_FREE
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: -7251371016799658373, guid: f2027f356abefca4c95c59b33a62449c, type: 3}
   speakerName: 
   dialogueText: You pour the blood over her chains. The blessed iron hisses. Smokes.
     Screams. The links crack, shatter, fall away. The Blind Seer rises for the first

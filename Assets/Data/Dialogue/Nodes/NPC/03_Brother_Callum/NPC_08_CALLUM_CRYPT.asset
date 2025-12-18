@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NPC_08_CALLUM_CRYPT
   m_EditorClassIdentifier: 
   nodeID: NPC_08_CALLUM_CRYPT
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: 9053202341865050492, guid: 53bc74f4a3d314c4dab95394223ccf3f, type: 3}
   speakerName: Brother Callum
   dialogueText: '"The crypt? It''s just old bones down there. Generations of the
     faithful." He hesitates. "There are... darker things too. An altar from the old

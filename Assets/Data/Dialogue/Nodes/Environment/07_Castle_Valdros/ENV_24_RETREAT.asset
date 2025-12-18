@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ENV_24_RETREAT
   m_EditorClassIdentifier: 
   nodeID: ENV_24_RETREAT
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: 6254702857192676462, guid: fcb5abca2ac14fd438c1203d7d3711e5, type: 3}
   speakerName: 
   dialogueText: "You back away from the throne. The king doesn't stop you \u2014
     perhaps he can't, bound as he is to that iron seat. But as you retreat through

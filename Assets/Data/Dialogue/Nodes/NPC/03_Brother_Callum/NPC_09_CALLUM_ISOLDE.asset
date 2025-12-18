@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NPC_09_CALLUM_ISOLDE
   m_EditorClassIdentifier: 
   nodeID: NPC_09_CALLUM_ISOLDE
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: 9053202341865050492, guid: 53bc74f4a3d314c4dab95394223ccf3f, type: 3}
   speakerName: Brother Callum
   dialogueText: His expression softens. "Queen Isolde. A good woman." He sighs. "When
     the king ordered her execution, someone smuggled her body here, hid her in the

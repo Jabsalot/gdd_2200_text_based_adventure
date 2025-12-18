@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: CS_01_SALVATION_EPILOGUE
   m_EditorClassIdentifier: 
   nodeID: CS_01_SALVATION_EPILOGUE
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: -3739041017295025646, guid: 2cd0ffb1fa2bf024192ad397462a640e, type: 3}
   speakerName: Epilogue
   dialogueText: "In the weeks that follow, King Aldric abolishes the crown's authority.
     He cannot undo what was done, but he tries \u2014 releasing prisoners, pardoning

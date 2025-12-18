@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ENV_18_THORNWOOD_TREES
   m_EditorClassIdentifier: 
   nodeID: ENV_18_THORNWOOD_TREES
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: -8758900892900530261, guid: 422b2729bba85334bacf67bfcc032cb0, type: 3}
   speakerName: 
   dialogueText: "The trees watch you. You know that's impossible \u2014 trees don't
     have eyes. But the knots in their bark form shapes that could be faces, and the

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ENV_24_KING_TALK_HELP
   m_EditorClassIdentifier: 
   nodeID: ENV_24_KING_TALK_HELP
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: 6254702857192676462, guid: fcb5abca2ac14fd438c1203d7d3711e5, type: 3}
   speakerName: King Aldric
   dialogueText: "He laughs \u2014 a dry, rattling sound. \"Help me? No one can help
     me. The crown won't let them. It whispers, you know. All the time. Every thought

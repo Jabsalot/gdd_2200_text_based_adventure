@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NPC_12_ROOK_WHY
   m_EditorClassIdentifier: 
   nodeID: NPC_12_ROOK_WHY.asset
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: -3800728153567874938, guid: ea61c0d33c35c3d4abfda08a14dcb430, type: 3}
   speakerName: Rook
   dialogueText: '"Because I''m already dead. Every face I see is someone I killed.
     Every night I hear them screaming." He looks at his hands. "I want to die. But

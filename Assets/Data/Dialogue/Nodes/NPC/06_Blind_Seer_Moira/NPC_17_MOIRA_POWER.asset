@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NPC_17_MOIRA_POWER
   m_EditorClassIdentifier: 
   nodeID: NPC_17_MOIRA_POWER
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: -7251371016799658373, guid: f2027f356abefca4c95c59b33a62449c, type: 3}
   speakerName: The Blind Seer
   dialogueText: "\"Power.\" She savors the word. \"The Void's Embrace \u2014 the
     same darkness that lives in the crown. I can teach you to control it. With it,

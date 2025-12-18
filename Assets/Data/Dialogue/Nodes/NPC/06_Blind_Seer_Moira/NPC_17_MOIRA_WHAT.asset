@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: NPC_17_MOIRA_WHAT
   m_EditorClassIdentifier: 
   nodeID: NPC_17_MOIRA_WHAT
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: -7251371016799658373, guid: f2027f356abefca4c95c59b33a62449c, type: 3}
   speakerName: The Blind Seer
   dialogueText: '"What am I?" She laughs wrongly. "I was an oracle. The greatest
     the kingdom ever knew. I told them the Hollow Crown would destroy everything.

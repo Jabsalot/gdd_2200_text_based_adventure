@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ENV_10_SEER_EYES
   m_EditorClassIdentifier: 
   nodeID: ENV_10_SEER_EYES
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: 671808422349728178, guid: e77471237859bdc4a826e25d5c145bcb, type: 3}
   speakerName: Silver Box
   dialogueText: "Inside the silver box, preserved in clouded fluid, float two human
     eyes. They're milky white, unseeing, yet you could swear they turn to follow

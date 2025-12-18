@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ENV_13_LAMB_ALTAR_TAKEN
   m_EditorClassIdentifier: 
   nodeID: ENV_13_LAMB_ALTAR_TAKEN
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: -4257943123874703653, guid: d4422aefdd093f94f95754b89b78133c, type: 3}
   speakerName: Lamb Altar
   dialogueText: The vial is cold in your hands, colder than stone should be. The
     blood inside shifts like it's still liquid, though it dried decades ago. You

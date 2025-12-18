@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ENV_07_CHAPEL
   m_EditorClassIdentifier: 
   nodeID: ENV_07_CHAPEL
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: 671808422349728178, guid: e77471237859bdc4a826e25d5c145bcb, type: 3}
   speakerName: Chapel of the Pale Saint
   dialogueText: "The chapel was beautiful once. Now the pews are splintered, the
     windows cracked, the altar stained with something dark. Candles burn in clusters,

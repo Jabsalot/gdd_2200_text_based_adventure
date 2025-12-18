@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ENV_23_VOID_EMBRACE
   m_EditorClassIdentifier: 
   nodeID: ENV_23_VOID_EMBRACE
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: -1529400728222948102, guid: 931ff3fd49aaccf42add3f9689e103b3, type: 3}
   speakerName: 
   dialogueText: "She presses her hand against your forehead, and the world goes black.
     You're drowning \u2014 not in water but in nothing. Pure nothing. The Void pours

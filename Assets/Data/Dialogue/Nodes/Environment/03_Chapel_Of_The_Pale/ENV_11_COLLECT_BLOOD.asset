@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ENV_11_COLLECT_BLOOD
   m_EditorClassIdentifier: 
   nodeID: ENV_11_COLLECT_BLOOD
-  nodeImage: {fileID: 0}
+  nodeImage: {fileID: 671808422349728178, guid: e77471237859bdc4a826e25d5c145bcb, type: 3}
   speakerName: 
   dialogueText: "You kneel beside each body, filling vials with still-warm blood.
     Callum's eyes are open, frozen in surprise. Thomas died reaching for Elena. Elena
