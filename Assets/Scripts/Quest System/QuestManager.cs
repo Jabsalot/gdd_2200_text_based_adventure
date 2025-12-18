@@ -73,6 +73,10 @@ public class QuestManager : MonoBehaviour
         CheckAllQuestProgress();
     }
 
+    /// <summary>
+    /// Called when a dialogue triggers a quest start
+    /// </summary>
+    /// <param name="questID"></param>
     private void OnDialogueQuestTriggered(string questID)
     {
         TryStartQuest(questID);
@@ -213,7 +217,7 @@ public class QuestManager : MonoBehaviour
         // Check for next stage
         if (string.IsNullOrEmpty(stage.nextStageID))
         {
-            // Quest complete!
+            // Quest complete
             CompleteQuest(questID);
         }
         else
@@ -267,24 +271,42 @@ public class QuestManager : MonoBehaviour
         OnQuestCompleted?.Invoke(questID, quest);
     }
 
-    // ============ Query Methods ============
-
+    /// <summary>
+    /// Check if a quest is currently active
+    /// </summary>
+    /// <param name="questID"></param>
+    /// <returns></returns>
     public bool IsQuestActive(string questID)
     {
         return activeQuests.ContainsKey(questID);
     }
 
+    /// <summary>
+    /// Check if a quest has been completed
+    /// </summary>
+    /// <param name="questID"></param>
+    /// <returns></returns>
     public bool IsQuestCompleted(string questID)
     {
         return completedQuestIDs.Contains(questID);
     }
 
+    /// <summary>
+    /// Get the runtime instance of an active quest
+    /// </summary>
+    /// <param name="questID"></param>
+    /// <returns></returns>
     public QuestInstance GetQuestInstance(string questID)
     {
         activeQuests.TryGetValue(questID, out QuestInstance instance);
         return instance;
     }
 
+    /// <summary>
+    /// Get the current stage of an active quest
+    /// </summary>
+    /// <param name="questID"></param>
+    /// <returns></returns>
     public QuestStage GetCurrentStage(string questID)
     {
         if (!activeQuests.TryGetValue(questID, out QuestInstance instance))
@@ -294,6 +316,10 @@ public class QuestManager : MonoBehaviour
         return quest?.GetStage(instance.currentStageID);
     }
 
+    /// <summary>
+    /// Get a list of all active quests
+    /// </summary>
+    /// <returns></returns>
     public List<QuestSO> GetActiveQuests()
     {
         List<QuestSO> result = new();
@@ -305,8 +331,10 @@ public class QuestManager : MonoBehaviour
         return result;
     }
 
-    // ============ Save/Load Support ============
-
+    /// <summary>
+    /// Convert current quest state to save data
+    /// </summary>
+    /// <returns></returns>
     public QuestSaveData ToSaveData()
     {
         QuestSaveData data = new QuestSaveData();
@@ -321,6 +349,10 @@ public class QuestManager : MonoBehaviour
         return data;
     }
 
+    /// <summary>
+    /// Load quest state from save data
+    /// </summary>
+    /// <param name="data"></param>
     public void FromSaveData(QuestSaveData data)
     {
         activeQuests.Clear();
